@@ -111,3 +111,15 @@ button[data-bs-target="#modalHorario"] {
 }
 
 
+/* Modal Contacto */
+#contactModal .modal-body iframe {
+  border-radius: 5px;
+}
+
+#contactModal .modal-body p {
+  margin-bottom: 1rem;
+}
+
+#contactModal .contact-info {
+  margin-bottom: 1.5rem;
+}
