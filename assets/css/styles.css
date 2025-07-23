@@ -94,3 +94,20 @@ img.fade-in {
     opacity: 1;
   }
 }
+
+/* Horarios por curso */
+section h2 {
+  color: var(--bs-primary);
+  font-weight: 600;
+}
+
+button[data-bs-target="#modalHorario"] {
+  min-width: 150px;
+}
+
+#modalHorario img {
+  max-height: 600px;
+  object-fit: contain;
+}
+
+

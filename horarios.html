@@ -45,62 +45,39 @@
 <body>
 
   <main class="container py-5">
-    <h1 class="text-center mb-5">Horarios de Talleres</h1>
-    <div class="table-responsive">
-      <table class="table table-striped table-hover table-bordered">
-        <thead class="table-dark" style="background-color: var(--bs-primary);">
-          <tr>
-            <th scope="col">Taller</th>
-            <th scope="col">Lunes</th>
-            <th scope="col">Martes</th>
-            <th scope="col">Miércoles</th>
-            <th scope="col">Jueves</th>
-            <th scope="col">Viernes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Pintura Infantil</th>
-            <td>16:00 - 17:30</td>
-            <td></td>
-            <td>16:00 - 17:30</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <th scope="row">Pintura Adultos</th>
-            <td></td>
-            <td>18:00 - 20:00</td>
-            <td></td>
-            <td>18:00 - 20:00</td>
-            <td></td>
-          </tr>
-          <tr>
-            <th scope="row">Guitarra Clásica</th>
-            <td>17:00 - 18:30</td>
-            <td></td>
-            <td>17:00 - 18:30</td>
-            <td></td>
-            <td>16:00 - 17:30</td>
-          </tr>
-          <tr>
-            <th scope="row">Teatro Juvenil</th>
-            <td></td>
-            <td>17:30 - 19:00</td>
-            <td></td>
-            <td>17:30 - 19:00</td>
-            <td></td>
-          </tr>
-           <tr>
-            <th scope="row">Danza Moderna</th>
-            <td>19:00 - 20:30</td>
-            <td></td>
-            <td>19:00 - 20:30</td>
-            <td></td>
-            <td>18:00 - 19:30</td>
-          </tr>
-        </tbody>
-      </table>
+    <h1 class="text-center mb-5">Horarios de Clases 2025</h1>
+    <section class="mb-5">
+      <h2 class="text-center mb-4">Horarios por Curso</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-3">
+        <!-- Botones de cursos -->
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="Prekinder">Prekinder</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="Kinder">Kinder</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="1º Básico">1º Básico</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="2º Básico">2º Básico</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="3º Básico">3º Básico</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="4º Básico">4º Básico</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="5º Básico">5º Básico</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="6º Básico">6º Básico</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="7º Básico A">7º Básico A</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="7º Básico B">7º Básico B</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="8º Básico A">8º Básico A</button>
+        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalHorario" data-curso="8º Básico B">8º Básico B</button>
+      </div>
+    </section>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modalHorario" tabindex="-1" aria-labelledby="modalHorarioLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalHorarioLabel">Horario</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+          </div>
+          <div class="modal-body text-center">
+            <img id="imagenHorario" src="" alt="Horario del curso" class="img-fluid rounded shadow-sm">
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -109,5 +86,6 @@
   <!-- Custom JS -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="assets/js/modal_horarios.js"></script>
 </body>
 </html>
