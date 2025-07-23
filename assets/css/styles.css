@@ -123,3 +123,178 @@ button[data-bs-target="#modalHorario"] {
 #contactModal .contact-info {
   margin-bottom: 1.5rem;
 }
+
+/* Historia - Timeline */
+.history-timeline {
+  position: relative;
+  padding-left: 30px;
+  border-left: 3px solid var(--bs-primary);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.timeline-year {
+  position: relative;
+  font-weight: 700;
+  color: var(--bs-primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.timeline-year::before {
+  content: "";
+  position: absolute;
+  left: -37px;
+  top: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--bs-primary);
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--bs-primary);
+}
+
+.timeline-item p {
+  text-align: justify;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Misión y Visión */
+.mission-vision-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  padding: 30px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.mission-vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.mission-card {
+  border-top: 4px solid var(--bs-primary);
+}
+
+.vision-card {
+  border-top: 4px solid var(--bs-secondary);
+}
+
+.card-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.5rem;
+  opacity: 0.1;
+  color: var(--bs-primary);
+}
+
+.vision-card .card-icon {
+  color: var(--bs-secondary);
+}
+
+.mission-vision-card h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: var(--bs-primary);
+}
+
+.vision-card h3 {
+  color: var(--bs-secondary);
+}
+
+.divider {
+  height: 3px;
+  width: 80px;
+  background: var(--bs-primary);
+  margin-bottom: 20px;
+}
+
+.vision-card .divider {
+  background: var(--bs-secondary);
+}
+
+.mission-vision-card p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 0;
+}
+
+/* Logo y nombre del establecimiento */
+.navbar-brand img {
+  transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+  transform: scale(1.05);
+}
+
+.school-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  display: block;
+  line-height: 1.2;
+}
+
+.school-subtitle {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.5px;
+}
+
+/* Tamaño aumentado de los enlaces del navbar */
+.navbar .nav-link {
+  font-size: 1.05rem;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+.navbar .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--bs-warning);
+  transition: width 0.3s ease;
+}
+
+.navbar .nav-link:hover::after,
+.navbar .nav-link.active::after {
+  width: 100%;
+}
+
+/* Dropdown menu más grande */
+.navbar .dropdown-menu {
+  font-size: 1rem;
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 75px;
+    height: 75px;
+  }
+  
+  .navbar .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 0.8rem;
+  }
+}
