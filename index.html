@@ -141,20 +141,43 @@
             <h2 class="text-center mb-5">Síguenos en Redes Sociales</h2>
             <div class="row">
                 <div class="col-md-6 mb-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class="bi bi-facebook"></i> Facebook</h5>
-                            <p class="card-text">Aquí iría el widget de Facebook. Como es un placeholder, mostramos un enlace.</p>
-                            <a href="https://www.facebook.com/eacoosorno/" class="btn btn-primary">Ir a Facebook</a>
-                        </div>
+                    <div class="fb-page"
+                         data-href="https://www.facebook.com/eacoosorno/"
+                         data-tabs="timeline"
+                         data-width=""
+                         data-height="500"
+                         data-small-header="false"
+                         data-adapt-container-width="true"
+                         data-hide-cover="false"
+                         data-show-facepile="true">
+                        <blockquote cite="https://www.facebook.com/eacoosorno/" class="fb-xfbml-parse-ignore">
+                            <a href="https://www.facebook.com/eacoosorno/">Escuela de Arte y Cultura de Osorno</a>
+                        </blockquote>
                     </div>
                 </div>
                 <div class="col-md-6 mb-4">
-                    <div class="card">
+                    <div class="card instagram-widget">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="bi bi-instagram"></i> Instagram</h5>
-                            <p class="card-text">Aquí iría el widget de Instagram. Como es un placeholder, mostramos un enlace.</p>
-                            <a href="https://www.instagram.com/escueladeartesycultura/" class="btn btn-primary" style="background-color: #C13584; border-color: #C13584;" target="_blank">Ir a Instagram</a>
+                            <div class="d-flex align-items-center mb-3">
+                                <i class="bi bi-instagram instagram-icon"></i>
+                                <a href="https://www.instagram.com/escueladeartesycultura/" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-dark">
+                                    <h5 class="card-title ms-2 mb-0">@escueladeartesycultura</h5>
+                                </a>
+                            </div>
+                            <div class="row g-2 mb-3">
+                                <div class="col-4">
+                                    <img src="https://picsum.photos/200/200?random=10" class="img-fluid rounded" alt="Publicación de Instagram 1">
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://picsum.photos/200/200?random=11" class="img-fluid rounded" alt="Publicación de Instagram 2">
+                                </div>
+                                <div class="col-4">
+                                    <img src="https://picsum.photos/200/200?random=12" class="img-fluid rounded" alt="Publicación de Instagram 3">
+                                </div>
+                            </div>
+                            <a href="https://www.instagram.com/escueladeartesycultura/" class="btn btn-instagram w-100" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-instagram"></i> Seguir en Instagram
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -171,5 +194,7 @@
   <!-- Custom JS -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/custom.js"></script>
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v18.0" nonce="aBcDeFgH"></script>
 </body>
 </html>
