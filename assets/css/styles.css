@@ -72,6 +72,26 @@ footer a:hover {
     color: white;
 }
 
+/* Carousel */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: .5rem;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  right: 15%;
+}
+
+.carousel-caption h5 {
+  color: #E7E78A;
+}
+
+/* General */
+.carousel-caption h5, .carousel-caption p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
 /* General */
 h1, h2, h3, h4, h5, h6 {
     color: var(--bs-primary);
