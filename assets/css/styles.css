@@ -318,3 +318,8 @@ button[data-bs-target="#modalHorario"] {
     padding: 0.5rem 0.8rem;
   }
 }
+
+#facebook-fallback-container .card {
+    max-width: 500px;
+    margin: 0 auto;
+}
