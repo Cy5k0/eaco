@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sitio web en construcción. Estamos trabajando en algo increíble que estará disponible pronto.">
+    <meta name="keywords" content="en construcción, under construction, sitio web, desarrollo">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Sitio en Construcción | Coming Soon</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🚧%3C/text%3E%3C/svg%3E">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Sitio en Construcción">
+    <meta property="og:description" content="Estamos trabajando en algo increíble que estará disponible pronto.">
+    <meta property="og:type" content="website">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #07074C 0%, #5F5F83 50%, #78789C 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        .container {
+            text-align: center;
+            padding: 2rem;
+            max-width: 800px;
+            width: 100%;
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 2rem;
+            background: linear-gradient(45deg, #E7E78A, #7C8464);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 10px 30px rgba(7, 7, 76, 0.3);
+            animation: pulse 2s infinite;
+            overflow: hidden;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border-radius: 50%;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+        }
+
+        .construction-image {
+            width: 100%;
+            max-width: 400px;
+            height: 300px;
+            margin: 2rem auto;
+            background: #E7E78A;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 15px 35px rgba(7, 7, 76, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .construction-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        .barrier {
+            width: 280px;
+            height: 60px;
+            background: linear-gradient(45deg, #7C8464 25%, #07074C 25%, #07074C 50%, #7C8464 50%, #7C8464 75%, #07074C 75%);
+            background-size: 40px 40px;
+            border-radius: 10px;
+            position: relative;
+            margin: 1rem 0;
+            box-shadow: 0 5px 15px rgba(7, 7, 76, 0.3);
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .barrier::before,
+        .barrier::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: #7C8464;
+            border-radius: 50%;
+            top: -10px;
+            box-shadow: 0 2px 8px rgba(7, 7, 76, 0.2);
+        }
+
+        .barrier::before { left: 20px; }
+        .barrier::after { right: 20px; }
+
+        .cones {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .cone {
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-bottom: 40px solid #7C8464;
+            position: relative;
+            filter: drop-shadow(0 2px 4px rgba(7, 7, 76, 0.2));
+        }
+
+        .cone::after {
+            content: '';
+            position: absolute;
+            left: -10px;
+            bottom: -30px;
+            width: 20px;
+            height: 8px;
+            background: #E7E78A;
+            border-radius: 2px;
+        }
+
+        .main-title {
+            font-size: 3.5rem;
+            font-weight: 900;
+            background: linear-gradient(45deg, #E7E78A, #7C8464, #847C94, #E7E78A);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 2rem 0 1rem;
+            animation: gradientShift 4s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .subtitle {
+            font-size: 1.3rem;
+            color: #E7E78A;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(7, 7, 76, 0.5);
+            line-height: 1.6;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 15px 40px;
+            background: linear-gradient(45deg, #7C8464, #847C94);
+            color: #E7E78A;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            box-shadow: 0 10px 25px rgba(7, 7, 76, 0.3);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            border: 2px solid #E7E78A;
+        }
+
+        .back-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(231, 231, 138, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .back-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px rgba(7, 7, 76, 0.4);
+            background: linear-gradient(45deg, #847C94, #7C8464);
+        }
+
+        .back-button:hover::before {
+            left: 100%;
+        }
+
+        .loading-dots {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin: 2rem 0;
+        }
+
+        .dot {
+            width: 12px;
+            height: 12px;
+            background: #E7E78A;
+            border-radius: 50%;
+            animation: bounce 1.4s infinite ease-in-out both;
+            box-shadow: 0 2px 8px rgba(7, 7, 76, 0.2);
+        }
+
+        .dot:nth-child(1) { 
+            animation-delay: -0.32s; 
+            background: #7C8464;
+        }
+        .dot:nth-child(2) { 
+            animation-delay: -0.16s; 
+            background: #847C94;
+        }
+        .dot:nth-child(3) { 
+            background: #E7E78A;
+        }
+
+        @keyframes bounce {
+            0%, 80%, 100% {
+                transform: scale(0);
+            }
+            40% {
+                transform: scale(1.0);
+            }
+        }
+
+        .progress-bar {
+            width: 100%;
+            max-width: 300px;
+            height: 6px;
+            background: rgba(231, 231, 138, 0.3);
+            border-radius: 3px;
+            margin: 2rem auto;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #7C8464, #847C94, #E7E78A);
+            border-radius: 3px;
+            animation: progress 3s ease-in-out infinite;
+        }
+
+        @keyframes progress {
+            0% { width: 0%; }
+            50% { width: 70%; }
+            100% { width: 0%; }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .main-title {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .construction-image {
+                max-width: 300px;
+                height: 250px;
+            }
+            
+            .barrier {
+                width: 200px;
+            }
+
+            .logo {
+                width: 90px;
+                height: 90px;
+            }
+
+            .logo img {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+        /* Partículas flotantes */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(231, 231, 138, 0.6);
+            border-radius: 50%;
+            animation: float-particles 6s infinite linear;
+        }
+
+        .particle:nth-child(even) {
+            background: rgba(124, 132, 100, 0.4);
+        }
+
+        .particle:nth-child(3n) {
+            background: rgba(132, 124, 148, 0.5);
+        }
+
+        @keyframes float-particles {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(-10px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* Efecto de resplandor en elementos clave */
+        .logo {
+            box-shadow: 0 0 20px rgba(231, 231, 138, 0.3), 0 10px 30px rgba(7, 7, 76, 0.2);
+        }
+
+        .construction-image {
+            border: 2px solid rgba(231, 231, 138, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+    
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="assets/images/Logo.png" alt="Logo">
+        </div>
+        
+        <!-- Título principal -->
+        <h1 class="main-title">EN CONSTRUCCIÓN</h1>
+        
+        <!-- Subtítulo -->
+        <p class="subtitle">
+            Estamos trabajando arduamente para ofrecerte una experiencia increíble.<br>
+            ¡Nuestro sitio estará disponible muy pronto!
+        </p>
+        
+        <!-- Imagen de construcción -->
+        <div class="construction-image">
+            <div class="barrier"></div>
+            <div class="cones">
+                <div class="cone"></div>
+                <div class="cone"></div>
+                <div class="cone"></div>
+            </div>
+        </div>
+        
+        <!-- Barra de progreso -->
+        <div class="progress-bar">
+            <div class="progress-fill"></div>
+        </div>
+        
+        <!-- Puntos de carga -->
+        <div class="loading-dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        
+        <!-- Botón de regreso -->
+        <a href="index.html" class="back-button">
+            🏠 Volver al Inicio
+        </a>
+    </div>
+
+    <script>
+        // Crear partículas flotantes
+        function createParticles() {
+            const particles = document.getElementById('particles');
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                particles.appendChild(particle);
+            }
+        }
+
+        // Efecto de escritura en el título
+        function typeWriter() {
+            const title = document.querySelector('.main-title');
+            const text = 'EN CONSTRUCCIÓN';
+            title.innerHTML = '';
+            
+            for (let i = 0; i < text.length; i++) {
+                setTimeout(() => {
+                    title.innerHTML += text.charAt(i);
+                }, i * 100);
+            }
+        }
+
+        // Inicializar efectos
+        document.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            setTimeout(typeWriter, 500);
+        });
+
+        // Efecto de click en el botón
+        document.querySelector('.back-button').addEventListener('click', function(e) {
+            this.style.transform = 'scale(0.95)';
+            setTimeout(() => {
+                this.style.transform = 'translateY(-3px) scale(1)';
+            }, 150);
+        });
+    </script>
+</body>
+</html>
