@@ -400,3 +400,21 @@ button[data-bs-target="#modalHorario"] {
     margin-bottom: 1rem;
   }
 }
+
+
+/* Lirmi */
+.lirmi-card {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  padding: 2rem;
+}
+
+.lirmi-card h2 {
+  color: var(--bs-primary);
+}
+
+.store-buttons .btn {
+  font-size: 1.2rem;
+  padding: .8rem 1.5rem;
+}
