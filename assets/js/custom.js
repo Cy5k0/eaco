@@ -26,12 +26,12 @@ document.addEventListener('DOMContentLoaded', function () {
 /* Avisos HTML */
 document.addEventListener('DOMContentLoaded', function() {
   // Lazy Load Images
-  const lazyImages = document.querySelectorAll('.aviso-item img[data-src]');
+  const lazyImages = document.querySelectorAll('.aviso-item img[src]');
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if(entry.isIntersecting){
         const img = entry.target;
-        img.src = img.getAttribute('data-src');
+        img.src = img.getAttribute('src');
         img.classList.add('fade-in');
         observer.unobserve(img);
       }
