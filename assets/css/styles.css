@@ -447,3 +447,55 @@ button[data-bs-target="#modalHorario"] {
 .team-card .card-text {
   font-size: 0.9rem;
 }
+
+/* Equipo Directivo */
+.directivo-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  padding: 2rem;
+  border-left: 5px solid var(--bs-primary);
+}
+
+.directivo-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.directivo-card h2 {
+  color: var(--bs-primary);
+  font-weight: 700;
+}
+
+.directivo-card .lead {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+.directivo-info {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+}
+
+.directivo-info h5 {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.directivo-info p {
+  margin-bottom: 0;
+}
+
+.directivo-info a {
+  color: var(--bs-secondary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.directivo-info a:hover {
+  color: var(--bs-primary);
+  text-decoration: underline;
+}
