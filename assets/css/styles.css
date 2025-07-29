@@ -380,9 +380,7 @@ button[data-bs-target="#modalHorario"] {
   margin-top: 1rem;
 }
 
-.d-none {
-  display: none !important;
-}
+
 
 @media (min-width: 768px) {
   .aviso-img {
@@ -417,4 +415,35 @@ button[data-bs-target="#modalHorario"] {
 .store-buttons .btn {
   font-size: 1.2rem;
   padding: .8rem 1.5rem;
+}
+
+/* PIE - Team */
+
+.team-card {
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.team-card-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1.5rem auto 1rem;
+  border: 4px solid var(--bs-primary);
+}
+
+.team-card .card-title {
+  font-weight: 600;
+  color: var(--bs-primary);
+}
+
+.team-card .card-text {
+  font-size: 0.9rem;
 }
