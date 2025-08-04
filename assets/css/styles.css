@@ -265,6 +265,7 @@ button[data-bs-target="#modalHorario"] {
 }
 
 .school-name {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.25rem;
   font-weight: 700;
   color: white;
@@ -273,6 +274,7 @@ button[data-bs-target="#modalHorario"] {
 }
 
 .school-subtitle {
+  font-family: 'Raleway', sans-serif;
   font-size: 0.85rem;
   color: rgba(255, 255, 255, 0.85);
   letter-spacing: 0.5px;
@@ -424,6 +426,15 @@ button[data-bs-target="#modalHorario"] {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.pre-basica-card {
+  background-color: #fffaf0; 
+}
+
+.pre-basica-card .team-card-img {
+  border-color: var(--bs-warning);
+}
+
 
 .team-card:hover {
   transform: translateY(-10px);
