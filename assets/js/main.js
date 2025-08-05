@@ -51,6 +51,16 @@ document.addEventListener("DOMContentLoaded", function() {
     io.observe(target);
   }
   lazyImages.forEach(lazyLoad);
+
+  // Inicializar el carrusel de briefing si existe
+  const briefingCarousel = document.querySelector('#briefingCarousel');
+  if (briefingCarousel) {
+    const carousel = new bootstrap.Carousel(briefingCarousel, {
+      interval: 5000, // 5 segundos
+      ride: 'carousel',
+      pause: 'hover'
+    });
+  }
 });
 
 // Btn coopiar texto
