@@ -528,6 +528,54 @@ button[data-bs-target="#modalHorario"] {
   border-top: 5px solid var(--bs-success);
 }
 
+/* Briefing Section */
+#briefing {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#briefing h2 {
+  font-family: 'Raleway', sans-serif;
+  color: var(--bs-primary);
+}
+
+#briefing .lead {
+  font-size: 1.15rem;
+  color: #555;
+}
+
+#briefing p {
+  line-height: 1.7;
+}
+
+#briefingCarousel .carousel-item {
+  transition: opacity 1s ease-in-out;
+}
+
+#briefingCarousel .carousel-item img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.briefing-text-column {
+  position: relative;
+  z-index: 1;
+}
+
+.briefing-text-column::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/Logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  opacity: 0.05;
+  z-index: -1;
+}
+
 .team-member-card {
     background-color: #fff;
     border: 0;
