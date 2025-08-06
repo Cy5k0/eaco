@@ -432,7 +432,7 @@ button[data-bs-target="#modalHorario"] {
 .team-card {
   border: none;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .pre-basica-card {
@@ -445,8 +445,14 @@ button[data-bs-target="#modalHorario"] {
 
 
 .team-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  background: linear-gradient(to bottom, #ffffff, #fdfdfd);
+}
+
+.team-card:hover .team-card-img {
+  border-color: #E7E78A;
+  box-shadow: 0 0 15px rgba(231, 231, 138, 0.5);
 }
 
 .team-card-img {
@@ -456,6 +462,7 @@ button[data-bs-target="#modalHorario"] {
   object-fit: cover;
   margin: 1.5rem auto 1rem;
   border: 4px solid var(--bs-primary);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .team-card .card-title {
@@ -624,5 +631,80 @@ button[data-bs-target="#modalHorario"] {
 }
 
 .team-member-card .card-email a:hover {
+    color: var(--bs-primary);
+}
+
+/* Profesores de Asignatura */
+.teacher-card-asignatura {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    border: 0;
+    margin-bottom: 1.5rem;
+}
+
+.teacher-card-asignatura:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #ffffff, #f8f9fa);
+}
+
+.teacher-card-asignatura:hover .teacher-img {
+    border-color: #E7E78A;
+}
+
+.teacher-card-asignatura .teacher-img-wrapper {
+    flex-shrink: 0;
+    width: 130px;
+    height: 130px;
+    margin-right: 1.5rem;
+}
+
+.teacher-card-asignatura .teacher-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #e9ecef;
+}
+
+.teacher-card-asignatura .card-body {
+    padding: 0;
+    flex-grow: 1;
+}
+
+.teacher-card-asignatura .card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: var(--bs-primary);
+    margin-bottom: 0.3rem;
+    font-size: 1.25rem;
+}
+
+.teacher-card-asignatura .card-subtitle {
+    font-weight: 500;
+    color: var(--bs-secondary);
+    margin-bottom: 0.75rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.teacher-card-asignatura .card-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.teacher-card-asignatura .teacher-contact {
+    font-size: 0.9rem;
+    color: #343a40;
+    font-weight: 500;
+}
+
+.teacher-card-asignatura .teacher-contact i {
     color: var(--bs-primary);
 }
