@@ -47,11 +47,10 @@
     <h1 class="text-center mb-5">Programa de Integración Escolar (PIE)</h1>
 
     <!-- Presentación Jefa PIE -->
-    <section class="mb-5 py-4 bg-light rounded-3 border">
+    <section class="mb-5 py-4 bg-light rounded-3 border directivo-card">
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-md-4 text-center mb-4 mb-md-0">
-            <!-- Cambiar 'https://via.placeholder.com/350' por la ruta de la imagen real -->
             <img src="assets/images/personal/Pamela-Rosas.webp" class="img-fluid rounded-3 shadow-sm" alt="Pamela Rosas Coordinadora PIE">
           </div>
           <div class="col-md-8">
@@ -62,12 +61,14 @@
             <p>
               Nuestro equipo de profesionales está comprometido con la creación de un ambiente de aprendizaje inclusivo, donde todos los niños, niñas y jóvenes reciban el apoyo necesario para desarrollarse integralmente. Los invitamos a conocer más sobre nuestro trabajo y a colaborar con nosotros en esta importante misión.
             </p>
-            <p class="mt-4 mb-0">
-              <strong>Pamela Rosas</strong><br>
-              <small class="text-muted">Coordinadora PIE</small>
-              <p><i class="bi bi-envelope-fill me-2"></i>pamela.rosas@daemosorno.cl</p>
-              <a href="mailto:pamela.rosas@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
-            </p>
+            <div class="directivo-info text-center mt-4">
+              <h5>Pamela Rosas</h5>
+              <p class="text-muted">Coordinadora PIE</p>
+              <p class="teacher-contact" onclick="copiarEmail('pamela.rosas@daemosorno.cl')">
+                <i class="bi bi-envelope-fill"></i>pamela.rosas@daemosorno.cl
+              </p>
+              <a href="mailto:pamela.rosas@daemosorno.cl" class="btn">Contactar</a>
+            </div>
           </div>
         </div>
       </div>
@@ -79,112 +80,142 @@
       <!-- Placeholder for a team member -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/Kareen-Aguila.webp" class="card-img-top team-card-img" alt="Kareen Aguila Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Kareen Aguila</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>kareen.aguila@daemosorno.cl</p>
-            <a href="mailto:kareen.aguila@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('kareen.aguila@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>kareen.aguila@daemosorno.cl
+            </p>
+            <a href="mailto:kareen.aguila@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/Natali-Cardenas.webp" class="card-img-top team-card-img" alt="Natali Cardenas Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Natali Cardenas</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>natali.cardenas@daemosorno.cl</p>
-            <a href="mailto:natali.cardenas@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('natali.cardenas@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>natali.cardenas@daemosorno.cl
+            </p>
+            <a href="mailto:natali.cardenas@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/constanza-moll-2.webp" class="card-img-top team-card-img" alt="Constanza Moll Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Constanza Moll</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>constanza.moll@daemosorno.cl</p>
-            <a href="mailto:constanza.moll@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('constanza.moll@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>constanza.moll@daemosorno.cl
+            </p>
+            <a href="mailto:constanza.moll@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/daniela-munoz.webp" class="card-img-top team-card-img" alt="Daniela Muñoz Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Daniela Muñoz</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>daniela.munoz@daemosorno.cl</p>
-            <a href="mailto:daniela.munoz@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('daniela.munoz@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>daniela.munoz@daemosorno.cl
+            </p>
+            <a href="mailto:daniela.munoz@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/Elena-Pizarro.webp" class="card-img-top team-card-img" alt="Elena Pizarro Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Elena Pizarro</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>elena.pizarro@daemosorno.cl</p>
-            <a href="mailto:elena.pizarro@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('elena.pizarro@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>elena.pizarro@daemosorno.cl
+            </p>
+            <a href="mailto:elena.pizarro@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/noemi-quintana.webp" class="card-img-top team-card-img" alt="Noemi Quintana Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Noemi Quintana</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>noemi.quintana@daemosorno.cl</p>
-            <a href="mailto:noemi.quintana@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('noemi.quintana@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>noemi.quintana@daemosorno.cl
+            </p>
+            <a href="mailto:noemi.quintana@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/VIroscka-Rios.webp" class="card-img-top team-card-img" alt="Viroscka Rios Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Viroscka Rios</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>viroscka.rios@daemosorno.cl</p>
-            <a href="mailto:viroscka.rios@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('viroscka.rios@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>viroscka.rios@daemosorno.cl
+            </p>
+            <a href="mailto:viroscka.rios@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/Zaida-Sepulveda.webp" class="card-img-top team-card-img" alt="Zaida Sepulveda Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Zaida Sepulveda</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>zaida.sepulveda@daemosorno.cl</p>
-            <a href="mailto:zaida.sepulveda@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('zaida.sepulveda@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>zaida.sepulveda@daemosorno.cl
+            </p>
+            <a href="mailto:zaida.sepulveda@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4"></div> <!-- espacio ultima fila -->
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/Maite-Uribe.webp" class="card-img-top team-card-img" alt="Maite Uribe Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Maite Uribe</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>maite.uribe@daemosorno.cl</p>
-            <a href="mailto:maite.uribe@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('maite.uribe@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>maite.uribe@daemosorno.cl
+            </p>
+            <a href="mailto:maite.uribe@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
         <div class="card team-card h-100 text-center">
+          <div class="img-overlay"></div>
           <img src="assets/images/personal/Carolina-Urrutia.webp" class="card-img-top team-card-img" alt="Carolina Urrutia Psicóloga PIE">
           <div class="card-body">
             <h5 class="card-title">Carolina Urrutia</h5>
             <p class="card-text text-muted">Psicóloga</p>
-            <p><i class="bi bi-envelope-fill me-2"></i>carolina.urrutia@daemosorno.cl</p>
-            <a href="mailto:carolina.urrutia@daemosorno.cl" class="btn btn-outline-primary btn-sm">Contactar</a>
+            <p class="teacher-contact" onclick="copiarEmail('carolina.urrutia@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>carolina.urrutia@daemosorno.cl
+            </p>
+            <a href="mailto:carolina.urrutia@daemosorno.cl" class="btn">Contactar</a>
           </div>
         </div>
       </div>
