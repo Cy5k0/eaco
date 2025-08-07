@@ -634,34 +634,53 @@ button[data-bs-target="#modalHorario"] {
     color: var(--bs-primary);
 }
 
-/* Profesores de Asignatura */
+/* Profesores de Asignatura - Rediseño Moderno */
 .teacher-card-asignatura {
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     display: flex;
-    align-items: center;
-    padding: 1.5rem;
-    border: 0;
-    margin-bottom: 1.5rem;
+    align-items: stretch;
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    min-height: 200px;
+}
+
+.teacher-card-asignatura::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--bs-primary), var(--bs-secondary));
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.teacher-card-asignatura:hover::before {
+    transform: scaleX(1);
 }
 
 .teacher-card-asignatura:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(to right, #ffffff, #f8f9fa);
-}
-
-.teacher-card-asignatura:hover .teacher-img {
-    border-color: #E7E78A;
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #ffffff 0%, #f0f2f5 100%);
 }
 
 .teacher-card-asignatura .teacher-img-wrapper {
     flex-shrink: 0;
-    width: 130px;
-    height: 130px;
-    margin-right: 1.5rem;
+    width: 140px;
+    height: 140px;
+    margin-right: 2rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .teacher-card-asignatura .teacher-img {
@@ -669,42 +688,268 @@ button[data-bs-target="#modalHorario"] {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #e9ecef;
+    border: 5px solid #ffffff;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.teacher-card-asignatura:hover .teacher-img {
+    border-color: var(--bs-primary);
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+.teacher-card-asignatura .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, var(--bs-primary), var(--bs-secondary));
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+}
+
+.teacher-card-asignatura:hover .img-overlay {
+    opacity: 0.1;
 }
 
 .teacher-card-asignatura .card-body {
     padding: 0;
     flex-grow: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .teacher-card-asignatura .card-title {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--bs-primary);
-    margin-bottom: 0.3rem;
-    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    position: relative;
 }
 
 .teacher-card-asignatura .card-subtitle {
-    font-weight: 500;
+    font-weight: 600;
     color: var(--bs-secondary);
-    margin-bottom: 0.75rem;
-    display: block;
-    font-size: 1rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    padding: 0.3rem 0.8rem;
+    background: linear-gradient(135deg, rgba(108, 117, 125, 0.1), rgba(108, 117, 125, 0.05));
+    border-radius: 20px;
+    border: 1px solid rgba(108, 117, 125, 0.1);
 }
 
 .teacher-card-asignatura .card-text {
-    color: #6c757d;
-    font-size: 0.95rem;
-    margin-bottom: 1rem;
+    color: #495057;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    flex-grow: 1;
+    font-weight: 400;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.teacher-card-asignatura .card-text::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 3px;
+    background: linear-gradient(to bottom, var(--bs-primary), var(--bs-secondary));
+    border-radius: 2px;
 }
 
 .teacher-card-asignatura .teacher-contact {
-    font-size: 0.9rem;
-    color: #343a40;
+    font-size: 0.95rem;
+    color: #495057;
     font-weight: 500;
+    word-break: break-all;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background: rgba(248, 249, 250, 0.8);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.teacher-card-asignatura .teacher-contact:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .teacher-card-asignatura .teacher-contact i {
     color: var(--bs-primary);
+    margin-right: 0.5rem;
+    font-size: 1rem;
 }
+
+.teacher-card-asignatura .btn {
+    align-self: flex-start;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--bs-primary), #0056b3);
+    border: none;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.teacher-card-asignatura .btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.teacher-card-asignatura .btn:hover::before {
+    left: 100%;
+}
+
+.teacher-card-asignatura .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 123, 255, 0.4);
+    background: linear-gradient(135deg, #0056b3, var(--bs-primary));
+}
+
+.teacher-card-asignatura .btn:active {
+    transform: translateY(0);
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+    .teacher-card-asignatura {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.5rem;
+        min-height: auto;
+    }
+    
+    .teacher-card-asignatura .teacher-img-wrapper {
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .teacher-card-asignatura .card-body {
+        align-items: center;
+    }
+    
+    .teacher-card-asignatura .card-text {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .teacher-card-asignatura .card-text::before {
+        display: none;
+    }
+    
+    .teacher-card-asignatura .teacher-contact {
+        text-align: center;
+        width: 100%;
+    }
+    
+    .teacher-card-asignatura .btn {
+        align-self: center;
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+/* Animación de entrada para las cards */
+.teacher-card-asignatura {
+    animation: slideInUp 0.6s ease-out;
+    animation-fill-mode: both;
+}
+
+.teacher-card-asignatura:nth-child(1) { animation-delay: 0.1s; }
+.teacher-card-asignatura:nth-child(2) { animation-delay: 0.2s; }
+.teacher-card-asignatura:nth-child(3) { animation-delay: 0.3s; }
+.teacher-card-asignatura:nth-child(4) { animation-delay: 0.4s; }
+.teacher-card-asignatura:nth-child(5) { animation-delay: 0.5s; }
+.teacher-card-asignatura:nth-child(6) { animation-delay: 0.6s; }
+.teacher-card-asignatura:nth-child(7) { animation-delay: 0.7s; }
+
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Notificación de email copiado */
+.email-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(40, 167, 69, 0.3);
+    z-index: 9999;
+    transform: translateX(400px);
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    max-width: 350px;
+}
+
+.email-notification.show {
+    transform: translateX(0);
+}
+
+.email-notification i {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.email-notification span {
+    font-size: 0.9rem;
+    word-break: break-all;
+}
+
+/* Responsive para notificación */
+@media (max-width: 768px) {
+    .email-notification {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        max-width: none;
+        transform: translateY(-100px);
+    }
+    
+    .email-notification.show {
+        transform: translateY(0);
+    }
+}
+

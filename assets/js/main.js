@@ -63,12 +63,42 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 
-// Btn coopiar texto
+// Btn copiar texto
 
 function copiarTexto(texto) {
   navigator.clipboard.writeText(texto).then(() => {
     alert("Texto copiado al portapapeles!");
   }).catch(err => {
     console.error('Error al copiar texto: ', err);
+  });
+}
+
+// Función para copiar email de profesores
+function copiarEmail(email) {
+  navigator.clipboard.writeText(email).then(() => {
+    // Crear notificación personalizada
+    const notification = document.createElement('div');
+    notification.className = 'email-notification';
+    notification.innerHTML = `
+      <i class="bi bi-check-circle-fill"></i>
+      <span>Email copiado: ${email}</span>
+    `;
+    document.body.appendChild(notification);
+    
+    // Mostrar notificación
+    setTimeout(() => {
+      notification.classList.add('show');
+    }, 100);
+    
+    // Ocultar notificación después de 3 segundos
+    setTimeout(() => {
+      notification.classList.remove('show');
+      setTimeout(() => {
+        document.body.removeChild(notification);
+      }, 300);
+    }, 3000);
+  }).catch(err => {
+    console.error('Error al copiar email: ', err);
+    alert('Error al copiar el email');
   });
 }
