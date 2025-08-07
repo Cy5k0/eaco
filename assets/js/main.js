@@ -61,6 +61,31 @@ document.addEventListener("DOMContentLoaded", function() {
       pause: 'hover'
     });
   }
+
+  // Debug: Verificar si los elementos clickeables están funcionando
+  console.log('Verificando elementos clickeables...');
+  
+  // Verificar elementos teacher-contact
+  const teacherContacts = document.querySelectorAll('.teacher-contact');
+  console.log('Elementos teacher-contact encontrados:', teacherContacts.length);
+  
+  teacherContacts.forEach((element, index) => {
+    console.log(`Elemento ${index}:`, element);
+    element.addEventListener('click', function(e) {
+      console.log('Click detectado en teacher-contact:', e.target);
+    });
+  });
+
+  // Verificar botones
+  const buttons = document.querySelectorAll('.btn');
+  console.log('Botones encontrados:', buttons.length);
+  
+  buttons.forEach((button, index) => {
+    console.log(`Botón ${index}:`, button);
+    button.addEventListener('click', function(e) {
+      console.log('Click detectado en botón:', e.target);
+    });
+  });
 });
 
 // Btn copiar texto
@@ -75,7 +100,11 @@ function copiarTexto(texto) {
 
 // Función para copiar email de profesores
 function copiarEmail(email) {
+  console.log('Función copiarEmail llamada con:', email);
+  
   navigator.clipboard.writeText(email).then(() => {
+    console.log('Email copiado exitosamente:', email);
+    
     // Crear notificación personalizada
     const notification = document.createElement('div');
     notification.className = 'email-notification';
