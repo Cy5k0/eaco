@@ -531,6 +531,7 @@ button[data-bs-target="#modalHorario"] {
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
+  text-align: center;
 }
 
 .team-card .teacher-contact:hover {
@@ -541,8 +542,10 @@ button[data-bs-target="#modalHorario"] {
 
 .team-card .teacher-contact i {
   color: var(--bs-primary);
-  margin-right: 0.5rem;
-  font-size: 1rem;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  display: block;
 }
 
 .team-card .btn {
@@ -724,6 +727,7 @@ button[data-bs-target="#modalHorario"] {
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
+  text-align: center;
 }
 
 .directivo-info .teacher-contact:hover {
@@ -734,8 +738,10 @@ button[data-bs-target="#modalHorario"] {
 
 .directivo-info .teacher-contact i {
   color: var(--bs-primary);
-  margin-right: 0.5rem;
-  font-size: 1rem;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  display: block;
 }
 
 .directivo-info .btn {
@@ -862,6 +868,7 @@ button[data-bs-target="#modalHorario"] {
   transition: all 0.3s ease;
   cursor: pointer;
   position: relative;
+  text-align: center;
 }
 
 .encargado-section .directivo-info .teacher-contact:hover {
@@ -872,8 +879,10 @@ button[data-bs-target="#modalHorario"] {
 
 .encargado-section .directivo-info .teacher-contact i {
   color: var(--bs-success);
-  margin-right: 0.5rem;
-  font-size: 1rem;
+  margin-right: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  display: block;
 }
 
 .encargado-section .directivo-info .btn {
@@ -1067,6 +1076,7 @@ button[data-bs-target="#modalHorario"] {
     transition: all 0.3s ease;
     cursor: pointer;
     position: relative;
+    text-align: center;
 }
 
 .team-member-card .teacher-contact:hover {
@@ -1077,8 +1087,10 @@ button[data-bs-target="#modalHorario"] {
 
 .team-member-card .teacher-contact i {
     color: var(--bs-primary);
-    margin-right: 0.5rem;
-    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    display: block;
 }
 
 .team-member-card .btn {
@@ -1277,6 +1289,7 @@ button[data-bs-target="#modalHorario"] {
     user-select: none;
     z-index: 999 !important;
     pointer-events: auto !important;
+    text-align: center;
 }
 
 .teacher-card-asignatura .teacher-contact:hover,
@@ -1294,8 +1307,10 @@ button[data-bs-target="#modalHorario"] {
 .team-member-card .teacher-contact i,
 .directivo-info .teacher-contact i {
     color: var(--bs-primary);
-    margin-right: 0.5rem;
-    font-size: 1rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    display: block;
 }
 
 .encargado-section .directivo-info .teacher-contact i {
