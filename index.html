@@ -17,11 +17,13 @@
       "description": "Escuela pública municipal con enfoque artístico en Osorno, Los Lagos",
       "url": "https://www.escueladeartesycultura.com",
       "logo": "https://www.escueladeartesycultura.com/assets/images/Logo.png",
-      "image": "https://www.escueladeartesycultura.com/assets/images/logo-2025.jpg",
+      "image": "https://www.escueladeartesycultura.com/assets/images/carousel_01.webp",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "Zenteno 2471",
         "addressLocality": "Osorno",
         "addressRegion": "Los Lagos",
+        "postalCode": "5290000",
         "addressCountry": "CL"
       },
       "contactPoint": {
@@ -29,37 +31,155 @@
         "contactType": "admissions",
         "telephone": "+56-64-2233179"
       },
-      "educationalOrganization": {
-        "@type": "EducationalOrganization",
-        "name": "Escuela de Artes y Cultura"
-      },
-      "offers": [
-        {
-          "@type": "Course",
-          "name": "Talleres de Música",
-          "description": "Aprende a tocar instrumentos con profesores expertos"
-        },
-        {
-          "@type": "Course", 
-          "name": "Teatro",
-          "description": "Desarrolla tu expresión corporal y vocal"
-        },
-        {
-          "@type": "Course",
-          "name": "Danza",
-          "description": "Explora diferentes estilos de danza"
-        },
-        {
-          "@type": "Course",
-          "name": "Artes Visuales",
-          "description": "Formación integral en artes visuales"
-        }
-      ],
       "foundingDate": "1970",
       "sameAs": [
-        "https://www.facebook.com/escueladeartesycultura",
+        "https://www.facebook.com/eacoosorno",
         "https://www.instagram.com/escueladeartesycultura"
       ]
+    }
+    </script>
+
+    <!-- DATOS ESTRUCTURADOS PARA CURSO DE MÚSICA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Talleres de Música",
+      "description": "Aprende a tocar instrumentos musicales con profesores expertos. Para todos los niveles.",
+      "provider": {
+        "@type": "School",
+        "name": "Escuela de Artes y Cultura",
+        "url": "https://www.escueladeartesycultura.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Educación",
+        "price": "0",
+        "priceCurrency": "CLP",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "https://schema.org/InPerson",
+        "location": {
+          "@type": "Place",
+          "name": "Escuela de Artes y Cultura",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Osorno",
+            "addressRegion": "Los Lagos",
+            "addressCountry": "CL"
+          }
+        }
+      }
+    }
+    </script>
+
+    <!-- DATOS ESTRUCTURADOS PARA CURSO DE TEATRO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Talleres de Teatro",
+      "description": "Desarrolla tu expresión corporal y vocal en nuestras clases de teatro.",
+      "provider": {
+        "@type": "School",
+        "name": "Escuela de Artes y Cultura",
+        "url": "https://www.escueladeartesycultura.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Educación",
+        "price": "0",
+        "priceCurrency": "CLP",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "https://schema.org/InPerson",
+        "location": {
+          "@type": "Place",
+          "name": "Escuela de Artes y Cultura",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Osorno",
+            "addressRegion": "Los Lagos",
+            "addressCountry": "CL"
+          }
+        }
+      }
+    }
+    </script>
+
+    <!-- DATOS ESTRUCTURADOS PARA CURSO DE DANZA -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Talleres de Danza",
+      "description": "Explora diferentes estilos de danza en nuestras clases especializadas.",
+      "provider": {
+        "@type": "School",
+        "name": "Escuela de Artes y Cultura",
+        "url": "https://www.escueladeartesycultura.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Educación",
+        "price": "0",
+        "priceCurrency": "CLP",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "https://schema.org/InPerson",
+        "location": {
+          "@type": "Place",
+          "name": "Escuela de Artes y Cultura",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Osorno",
+            "addressRegion": "Los Lagos",
+            "addressCountry": "CL"
+          }
+        }
+      }
+    }
+    </script>
+
+    <!-- DATOS ESTRUCTURADOS PARA CURSO DE ARTES VISUALES -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Talleres de Artes Visuales",
+      "description": "Formación integral en artes visuales y técnicas de expresión artística.",
+      "provider": {
+        "@type": "School",
+        "name": "Escuela de Artes y Cultura",
+        "url": "https://www.escueladeartesycultura.com"
+      },
+      "offers": {
+        "@type": "Offer",
+        "category": "Educación",
+        "price": "0",
+        "priceCurrency": "CLP",
+        "availability": "https://schema.org/InStock"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "https://schema.org/InPerson",
+        "location": {
+          "@type": "Place",
+          "name": "Escuela de Artes y Cultura",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Osorno",
+            "addressRegion": "Los Lagos",
+            "addressCountry": "CL"
+          }
+        }
+      }
     }
     </script>
 
