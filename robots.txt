@@ -1,0 +1,65 @@
+# Robots.txt para Escuela de Artes y Cultura - Osorno
+# Optimizado para SEO y rastreo eficiente
+
+# Permitir acceso a todos los bots principales
+User-agent: *
+Allow: /
+
+# Bloquear directorios administrativos y archivos sensibles
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /tmp/
+Disallow: /backup/
+Disallow: /logs/
+Disallow: /_notes/
+Disallow: /cgi-bin/
+
+# Bloquear archivos de sistema y configuración
+Disallow: *.php$
+Disallow: *.inc$
+Disallow: *.log$
+Disallow: *.sql$
+Disallow: *.txt$
+Disallow: /wp-config.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# Permitir específicamente recursos importantes para SEO
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/fonts/
+
+# Bloquear parámetros de URL problemáticos
+Disallow: /*?*print=
+Disallow: /*?*session
+Disallow: /*?*sid=
+
+# Configuraciones específicas para bots principales
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Bloquear bots problemáticos o no deseados
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap - IMPORTANTE: Actualiza esta URL
+Sitemap: https://www.escueladeartesycultura.com/sitemap.xml

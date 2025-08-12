@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página principal -->
+  <url>
+    <loc>https://www.escueladeartesycultura.com/</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Páginas principales -->
+  <url>
+    <loc>https://www.escueladeartesycultura.com/mision-vision.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.escueladeartesycultura.com/avisos.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Agrega aquí todas tus páginas importantes -->
+  <!-- Ejemplo de otras páginas que podrías tener: -->
+  <!-- <url>
+    <loc>https://www.escueladeartesycultura.com/talleres.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.escueladeartesycultura.com/admision.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.escueladeartesycultura.com/contacto.html</loc>
+    <lastmod>2025-08-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset> -->
