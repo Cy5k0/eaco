@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,27 +10,38 @@
   <meta name="author" content="Francisco Colomer Bonometti">
   <meta property="og:title" content="Lirmi - Escuela de Artes y Cultura">
   <meta property="og:description" content="Acceso a la plataforma Lirmi.">
-  <meta property="og:image" content="https://picsum.photos/1200/630?random=16">
-  <meta property="og:url" content="[URL_ACTUAL]/lirmi.html">
+  <meta property="og:image" content="https://www.escueladeartesycultura.com/assets/img/Logo_Lirmi.png">
+  <meta property="og:url" content="https://www.escueladeartesycultura.com/lirmi.html">
   <meta name="twitter:card" content="summary_large_image">
 
+  <!-- SEO: JSON-LD WebPage para IA (Regla 4 GEMINI.md) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Lirmi - Escuela de Artes y Cultura",
+      "description": "Acceso al portal Lirmi para la gestión del aprendizaje.",
+      "relatedLink": "https://lirmi.com"
+    }
+    </script>
+
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap CSS -->
@@ -39,26 +51,30 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom-bootstrap.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
 
   <main class="container py-5">
     <div class="row justify-content-center">
-        <div class="col-md-8 text-center">
-            <img src="assets/images/Logo_Lirmi.png" alt="Logo Lirmi" class="img-fluid mb-4" style="max-width: 150px;">
-            <h1 class="mb-4">Acceso a Plataforma Lirmi</h1>
-            <p class="lead">
-                Lirmi es nuestra plataforma de gestión del aprendizaje. Aquí, estudiantes, apoderados y docentes pueden acceder a calificaciones, asistencia, comunicaciones y recursos educativos.
-            </p>
-            <a href="https://lms.lirmi.com/login" target="_blank" class="btn btn-primary btn-lg mt-3">
-                <i class="bi bi-box-arrow-up-right me-2"></i>Ir a Lirmi
-            </a>
-        </div>
+      <div class="col-md-8 text-center">
+        <img src="assets/img/Logo_Lirmi.png" alt="Logo Lirmi" class="img-fluid mb-4" style="max-width: 150px;">
+        <h1 class="mb-4">Acceso a Plataforma Lirmi</h1>
+        <p class="lead">
+          Lirmi es nuestra plataforma de gestión del aprendizaje. Aquí, estudiantes, apoderados y docentes pueden
+          acceder a calificaciones, asistencia, comunicaciones y recursos educativos.
+        </p>
+        <a href="https://lms.lirmi.com/login" target="_blank" class="btn btn-primary btn-lg mt-3">
+          <i class="bi bi-box-arrow-up-right me-2"></i>Ir a Lirmi
+        </a>
+      </div>
     </div>
 
     <div class="row justify-content-center mt-5 pt-5 border-top">
@@ -73,8 +89,10 @@
         </ul>
 
         <div class="mt-4">
-          <a href="https://play.google.com/store/apps/details?id=com.lirmi.app&hl=es_CL" class="btn btn-dark btn-lg me-2" target="_blank"><i class="bi bi-google-play me-2"></i>Google Play</a>
-          <a href="https://apps.apple.com/cl/app/lirmi-familia/id1449652286" class="btn btn-dark btn-lg" target="_blank"><i class="bi bi-apple me-2"></i>App Store</a>
+          <a href="https://play.google.com/store/apps/details?id=com.lirmi.app&hl=es_CL"
+            class="btn btn-dark btn-lg me-2" target="_blank"><i class="bi bi-google-play me-2"></i>Google Play</a>
+          <a href="https://apps.apple.com/cl/app/lirmi-familia/id1449652286" class="btn btn-dark btn-lg"
+            target="_blank"><i class="bi bi-apple me-2"></i>App Store</a>
         </div>
       </div>
     </div>
@@ -93,7 +111,8 @@
       <div class="col-md-8">
         <div class="alert alert-warning" role="alert">
           <h4 class="alert-heading">¿Tienes problemas para ingresar?</h4>
-          <p>Escríbenos a <a href="mailto:francisco.colomer@daemosorno.cl">francisco.colomer@daemosorno.cl</a> e incluye los siguientes datos:</p>
+          <p>Escríbenos a <a href="mailto:francisco.colomer@daemosorno.cl">francisco.colomer@daemosorno.cl</a> e incluye
+            los siguientes datos:</p>
           <ul>
             <li>RUT del alumno</li>
             <li>RUT del apoderado</li>
@@ -111,8 +130,9 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom JS -->
-  <script src="assets/js/main.js"></script>
+  <!-- Custom JS con defer (Regla 3 GEMINI.md) -->
+  <script src="assets/js/main.js" defer></script>
   <script src="assets/js/custom.js"></script>
 </body>
+
 </html>
