@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="programa-pie\.html"/g, 'href="../programa-pie.html"');
             data = data.replace(/href="convivencia-inspectoria\.html"/g, 'href="../convivencia-inspectoria.html"');
             data = data.replace(/href="mision-vision\.html"/g, 'href="../mision-vision.html"');
-            data = data.replace(/href="under_construction\.html"/g, 'href="../talleres/folclore.html"');
+            data = data.replace(/href="talleres\/folclore\.html"/g, 'href="folclore.html"');
             data = data.replace(/src="assets\/img\//g, 'src="../assets/img/');
             document.body.insertAdjacentHTML("afterbegin", data);
 
