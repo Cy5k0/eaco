@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,49 @@
   <meta name="description" content="Conoce a los profesores de asignatura de nuestra escuela.">
   <meta name="keywords" content="profesores, asignatura, escuela, artes, cultura, Osorno">
   <meta name="author" content="Francisco Colomer Bonometti">
+  <meta property="og:title" content="Profesores de Asignatura - Escuela de Artes y Cultura">
+  <meta property="og:description" content="Conoce a los profesores de asignatura de nuestra escuela.">
+  <meta property="og:image" content="https://www.escueladeartesycultura.com/assets/img/carousel_01.webp">
+  <meta property="og:url" content="https://www.escueladeartesycultura.com/profes-asignaturas.html">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- SEO: Schema ItemList para IA (Regla 4 GEMINI.md) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Profesores de Asignatura - Escuela de Artes y Cultura",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Person",
+          "name": "Pablo Barrientos",
+          "jobTitle": "Profesor de Música"
+        }
+      }
+    ]
+  }
+  </script>
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap CSS -->
@@ -34,12 +60,15 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="assets/css/custom-bootstrap.css">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
 
   <main class="container py-5">
@@ -52,7 +81,8 @@
         <div class="card teacher-card-asignatura d-flex">
           <div class="teacher-img-wrapper">
             <div class="img-overlay"></div>
-            <img src="assets/images/personal/Pablo-Barrientos.webp" class="teacher-img" alt="Profesor Pablo Barrientos">
+            <img src="assets/img/personal/Pablo-Barrientos.webp" class="teacher-img" alt="Profesor Pablo Barrientos"
+              loading="lazy">
           </div>
           <div class="card-body flex-grow-1">
             <h5 class="card-title">Pablo Barrientos</h5>
@@ -69,7 +99,8 @@
         <div class="card teacher-card-asignatura d-flex">
           <div class="teacher-img-wrapper">
             <div class="img-overlay"></div>
-            <img src="assets/images/personal/Nedjelka-Ruiz.webp" class="teacher-img" alt="Profesora Nedjelka Ruiz">
+            <img src="assets/img/personal/Nedjelka-Ruiz.webp" class="teacher-img" alt="Profesora Nedjelka Ruiz"
+              loading="lazy">
           </div>
           <div class="card-body flex-grow-1">
             <h5 class="card-title">Nedjelka Ruiz</h5>
@@ -86,7 +117,8 @@
         <div class="card teacher-card-asignatura d-flex">
           <div class="teacher-img-wrapper">
             <div class="img-overlay"></div>
-            <img src="assets/images/personal/Julio-Del-Rio.webp" class="teacher-img" alt="Profesor Julio Del Rio">
+            <img src="assets/img/personal/Julio-Del-Rio.webp" class="teacher-img" alt="Profesor Julio Del Rio"
+              loading="lazy">
           </div>
           <div class="card-body flex-grow-1">
             <h5 class="card-title">Julio Del Rio</h5>
@@ -103,7 +135,8 @@
         <div class="card teacher-card-asignatura d-flex">
           <div class="teacher-img-wrapper">
             <div class="img-overlay"></div>
-            <img src="assets/images/personal/Loreto-Seguel.webp" class="teacher-img" alt="Profesor Loreto Seguel">
+            <img src="assets/img/personal/Loreto-Seguel.webp" class="teacher-img" alt="Profesor Loreto Seguel"
+              loading="lazy">
           </div>
           <div class="card-body flex-grow-1">
             <h5 class="card-title">Loreto Seguel</h5>
@@ -114,30 +147,32 @@
             </p>
             <a href="mailto:loreto.seguel@daemosorno.cl" class="btn">Contactar</a>
           </div>
-        </div> 
+        </div>
 
         <!-- Profesor 4 -->
         <div class="card teacher-card-asignatura d-flex">
-            <div class="teacher-img-wrapper">
-              <div class="img-overlay"></div>
-              <img src="assets/images/personal/Jeanette-Licandeo.webp" class="teacher-img" alt="Profesora Jeanette Licandeo">
-            </div>
-            <div class="card-body flex-grow-1">
-              <h5 class="card-title">Jeannette Licandeo</h5>
-              <span class="card-subtitle">Lengua Indígena Mapudungun</span>
-              <p class="card-text">Enseñando la cultura y la lengua mapuche a nuestros estudiantes.</p>
-              <p class="teacher-contact" onclick="copiarEmail('jeanette.licandeo@daemosorno.cl')">
-                <i class="bi bi-envelope-fill"></i>jeanette.licandeo@daemosorno.cl
-              </p>
-              <a href="mailto:jeanette.licandeo@daemosorno.cl" class="btn">Contactar</a>
-            </div>
+          <div class="teacher-img-wrapper">
+            <div class="img-overlay"></div>
+            <img src="assets/img/personal/Jeanette-Licandeo.webp" class="teacher-img" alt="Profesora Jeanette Licandeo"
+              loading="lazy">
           </div>
+          <div class="card-body flex-grow-1">
+            <h5 class="card-title">Jeannette Licandeo</h5>
+            <span class="card-subtitle">Lengua Indígena Mapudungun</span>
+            <p class="card-text">Enseñando la cultura y la lengua mapuche a nuestros estudiantes.</p>
+            <p class="teacher-contact" onclick="copiarEmail('jeanette.licandeo@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>jeanette.licandeo@daemosorno.cl
+            </p>
+            <a href="mailto:jeanette.licandeo@daemosorno.cl" class="btn">Contactar</a>
+          </div>
+        </div>
 
         <!-- Profesor 5 -->
         <div class="card teacher-card-asignatura d-flex">
           <div class="teacher-img-wrapper">
             <div class="img-overlay"></div>
-            <img src="assets/images/personal/Enedina-Quisel.webp" class="teacher-img" alt="Profesora Enedina Quisel">
+            <img src="assets/img/personal/Enedina-Quisel.webp" class="teacher-img" alt="Profesora Enedina Quisel"
+              loading="lazy">
           </div>
           <div class="card-body flex-grow-1">
             <h5 class="card-title">Enedina Quisel</h5>
@@ -154,7 +189,8 @@
         <div class="card teacher-card-asignatura d-flex">
           <div class="teacher-img-wrapper">
             <div class="img-overlay"></div>
-            <img src="assets/images/personal/Carmen-Delgado.webp" class="teacher-img" alt="Profesora Carmen Delgado">
+            <img src="assets/img/personal/Carmen-Delgado.webp" class="teacher-img" alt="Profesora Carmen Delgado"
+              loading="lazy">
           </div>
           <div class="card-body flex-grow-1">
             <h5 class="card-title">Carmen Delgado</h5>
@@ -169,20 +205,21 @@
 
         <!-- Profesor 7 -->
         <div class="card teacher-card-asignatura d-flex">
-            <div class="teacher-img-wrapper">
-              <div class="img-overlay"></div>
-              <img src="assets/images/personal/Patricia-Soto.webp" class="teacher-img" alt="Profesora Patricia Soto">
-            </div>
-            <div class="card-body flex-grow-1">
-              <h5 class="card-title">Patricia Soto</h5>
-              <span class="card-subtitle">Religión Evangélica</span>
-              <p class="card-text">Enseñando la fe y la cultura evangélica a nuestros estudiantes.</p>
-              <p class="teacher-contact" onclick="copiarEmail('patricia.soto@daemosorno.cl')">
-                <i class="bi bi-envelope-fill"></i>patricia.soto@daemosorno.cl
-              </p>
-              <a href="mailto:patricia.soto@daemosorno.cl" class="btn">Contactar</a>
-            </div>
-          </div>        
+          <div class="teacher-img-wrapper">
+            <div class="img-overlay"></div>
+            <img src="assets/img/personal/Patricia-Soto.webp" class="teacher-img" alt="Profesora Patricia Soto"
+              loading="lazy">
+          </div>
+          <div class="card-body flex-grow-1">
+            <h5 class="card-title">Patricia Soto</h5>
+            <span class="card-subtitle">Religión Evangélica</span>
+            <p class="card-text">Enseñando la fe y la cultura evangélica a nuestros estudiantes.</p>
+            <p class="teacher-contact" onclick="copiarEmail('patricia.soto@daemosorno.cl')">
+              <i class="bi bi-envelope-fill"></i>patricia.soto@daemosorno.cl
+            </p>
+            <a href="mailto:patricia.soto@daemosorno.cl" class="btn">Contactar</a>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -190,8 +227,9 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom JS -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <!-- Custom JS con defer (Regla 3 GEMINI.md) -->
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/custom.js" defer></script>
 </body>
+
 </html>

@@ -10,27 +10,52 @@
   <meta name="author" content="Francisco Colomer Bonometti">
   <meta property="og:title" content="Avisos - Escuela de Artes y Cultura">
   <meta property="og:description" content="Mantente informado con los últimos avisos y noticias.">
-  <meta property="og:image" content="https://picsum.photos/1200/630?random=17">
-  <meta property="og:url" content="[URL_ACTUAL]/avisos.html">
+  <meta property="og:image" content="https://www.escueladeartesycultura.com/assets/img/carousel_01.webp">
+  <meta property="og:url" content="https://www.escueladeartesycultura.com/avisos.html">
   <meta name="twitter:card" content="summary_large_image">
 
+  <!-- SEO: Schema ItemList de avisos para optimización AI-First (Regla 4 GEMINI.md) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Avisos y Noticias - Escuela de Artes y Cultura",
+    "description": "Últimos avisos y noticias de la Escuela de Artes y Cultura de Osorno",
+    "url": "https://www.escueladeartesycultura.com/avisos.html",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Nuevos Horarios 2026",
+        "url": "https://www.escueladeartesycultura.com/horarios.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Sistema de Admisión Escolar 2026",
+        "url": "https://www.sistemadeadmisionescolar.cl/"
+      }
+    ]
+  }
+  </script>
+
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="assets/images/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/img/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicons/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+  <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <!-- Bootstrap CSS -->
@@ -53,6 +78,10 @@
 
   <main class="container py-5">
     <h1 class="text-center mb-5">Avisos y Noticias</h1>
+    <p class="lead text-center mb-5">
+      Mantente al día con los últimos comunicados, eventos y novedades de la Escuela de Artes y Cultura de Osorno.
+      Aquí encontrarás toda la información relevante para nuestra comunidad educativa.
+    </p>
 
     <!-- Filtros -->
     <div class="row mb-4">
@@ -72,7 +101,6 @@
         </select>
       </div>
     </div>
-
     <!-- Lista de Avisos -->
     <section id="avisos-lista">
       <!-- Aviso más reciente primero -->
@@ -124,7 +152,7 @@
 
           <!-- Imagen -->
           <div class="col-md-4 order-md-last">
-            <img src="assets/images/avisos/SAE 2026.webp" alt="Sistema de admisión escolar 2026"
+            <img src="assets/img/avisos/SAE 2026.webp" alt="Sistema de admisión escolar 2026"
               class="aviso-img img-fluid rounded">
           </div>
         </div>
@@ -151,17 +179,20 @@
 
               <h3>Funciones principales:</h3>
               <ul class="feature-list">
-                <li><strong>Control de tiempo de pantalla:</strong> Establece límites diarios o semanales para el uso de
+                <li><strong>Control de tiempo de pantalla:</strong> Establece límites diarios o semanales para el uso
+                  de
                   dispositivos y aplicaciones.</li>
                 <li><strong>Aprobación de aplicaciones:</strong> Revisa y aprueba las apps que tus hijos quieren
                   descargar de Google Play Store.</li>
                 <li><strong>Supervisión de actividad:</strong> Consulta informes detallados sobre el tiempo de uso de
                   aplicaciones y servicios.</li>
-                <li><strong>Control de contenido:</strong> Gestiona configuraciones de YouTube (restricción de contenido
+                <li><strong>Control de contenido:</strong> Gestiona configuraciones de YouTube (restricción de
+                  contenido
                   adulto, activación de YouTube Kids).</li>
                 <li><strong>Gestión de cuentas:</strong> Ayuda a administrar la cuenta Google de tus hijos, incluyendo
                   contraseñas e información personal.</li>
-                <li><strong>Ubicación:</strong> Rastrea la ubicación de los dispositivos (requiere conexión a internet).
+                <li><strong>Ubicación:</strong> Rastrea la ubicación de los dispositivos (requiere conexión a
+                  internet).
                 </li>
               </ul>
 
@@ -187,7 +218,8 @@
               <div class="alert alert-warning mt-4">
                 <strong>Importante:</strong>
                 <ul>
-                  <li>Algunas funciones requieren que el dispositivo del niño esté encendido y conectado a internet</li>
+                  <li>Algunas funciones requieren que el dispositivo del niño esté encendido y conectado a internet
+                  </li>
                   <li>No sustituye la educación digital: es fundamental hablar con tus hijos sobre seguridad en línea
                   </li>
                 </ul>
@@ -196,7 +228,7 @@
           </div>
 
           <div class="col-md-4 order-md-last">
-            <img src="assets/images/avisos/family_link.webp" alt="family_link" class="aviso-img img-fluid rounded">
+            <img src="assets/img/avisos/family_link.webp" alt="family_link" class="aviso-img img-fluid rounded">
           </div>
         </div>
       </article>
@@ -218,9 +250,9 @@
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom JS -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <!-- Custom JS con defer (Regla 3 GEMINI.md) -->
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/custom.js" defer></script>
 </body>
 
 </html>

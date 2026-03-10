@@ -28,7 +28,7 @@ Disallow: /license.txt
 # Permitir específicamente recursos importantes para SEO
 Allow: /assets/css/
 Allow: /assets/js/
-Allow: /assets/images/
+Allow: /assets/img/
 Allow: /assets/fonts/
 
 # Bloquear parámetros de URL problemáticos
