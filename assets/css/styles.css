@@ -1726,7 +1726,8 @@ button[data-bs-target="#modalHorario"] {
   flex-shrink: 0;
 }
 
-.highlight-icon i {
+.highlight-icon i,
+.highlight-icon .material-symbols-outlined {
   color: white;
   font-size: 1.2rem;
 }
