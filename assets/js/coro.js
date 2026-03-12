@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="lirmi\.html"/g, 'href="../lirmi.html"');
             data = data.replace(/href="profes-jefes\.html"/g, 'href="../profes-jefes.html"');
             data = data.replace(/href="profes-asignaturas\.html"/g, 'href="../profes-asignaturas.html"');
+            data = data.replace(/href="profes-formacion-artistica\.html"/g, 'href="../profes-formacion-artistica.html"');
             data = data.replace(/href="equipo-directivo\.html"/g, 'href="../equipo-directivo.html"');
             data = data.replace(/href="programa-pie\.html"/g, 'href="../programa-pie.html"');
             data = data.replace(/href="convivencia-inspectoria\.html"/g, 'href="../convivencia-inspectoria.html"');
