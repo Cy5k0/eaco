@@ -1,5 +1,5 @@
 /**
- * Lógica específica para la página de Coro
+ * Lógica específica para la página de Cuerdas Frotadas
  * Escuela de Artes y Cultura
  */
 
@@ -21,12 +21,15 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="programa-pie\.html"/g, 'href="../programa-pie.html"');
             data = data.replace(/href="convivencia-inspectoria\.html"/g, 'href="../convivencia-inspectoria.html"');
             data = data.replace(/href="mision-vision\.html"/g, 'href="../mision-vision.html"');
+            
+            // Corregir enlaces de otros talleres cuando se navega entre ellos
             data = data.replace(/href="talleres\/folclore\.html"/g, 'href="folclore.html"');
             data = data.replace(/href="talleres\/coro\.html"/g, 'href="coro.html"');
             data = data.replace(/href="talleres\/cuerdas-frotadas-01\.html"/g, 'href="cuerdas-frotadas-01.html"');
             data = data.replace(/href="talleres\/cuerdas-frotadas-02\.html"/g, 'href="cuerdas-frotadas-02.html"');
             data = data.replace(/href="talleres\/cuerdas-chello\.html"/g, 'href="cuerdas-chello.html"');
             data = data.replace(/href="talleres\/pintura\.html"/g, 'href="pintura.html"');
+
             data = data.replace(/src="assets\/img\//g, 'src="../assets/img/');
             document.body.insertAdjacentHTML("afterbegin", data);
 

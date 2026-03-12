@@ -23,6 +23,10 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="mision-vision\.html"/g, 'href="../mision-vision.html"');
             data = data.replace(/href="talleres\/folclore\.html"/g, 'href="folclore.html"');
             data = data.replace(/href="talleres\/coro\.html"/g, 'href="coro.html"');
+            data = data.replace(/href="talleres\/cuerdas-frotadas-01\.html"/g, 'href="cuerdas-frotadas-01.html"');
+            data = data.replace(/href="talleres\/cuerdas-frotadas-02\.html"/g, 'href="cuerdas-frotadas-02.html"');
+            data = data.replace(/href="talleres\/cuerdas-chello\.html"/g, 'href="cuerdas-chello.html"');
+            data = data.replace(/href="talleres\/pintura\.html"/g, 'href="pintura.html"');
             data = data.replace(/src="assets\/img\//g, 'src="../assets/img/');
             document.body.insertAdjacentHTML("afterbegin", data);
 
