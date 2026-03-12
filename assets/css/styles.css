@@ -1901,7 +1901,8 @@ button[data-bs-target="#modalHorario"] {
   transform: translateY(-5px);
 }
 
-.valor-card i {
+.valor-card i,
+.valor-card .material-symbols-outlined {
   font-size: 2.5rem;
   color: var(--bs-warning);
   margin-bottom: 1rem;
