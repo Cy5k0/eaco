@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atención de Apoderados - Escuela de Artes y Cultura</title>
+  <meta name="description" content="Encuentra el horario de atención de los profesores de la Escuela de Artes y Cultura Osorno.">
+  <meta name="keywords" content="horarios atención, apoderados, reuniones profesores, escuela artes Osorno">
+  <meta name="author" content="Francisco Colomer Bonometti">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/custom-bootstrap.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- SEO: Schema para listado de horarios (Regla 4 GEMINI.md) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Horarios de Atención de Apoderados",
+    "description": "Buscador de horarios de atención para apoderados por docente."
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Navbar se carga aquí -->
+
+  <main class="container py-5">
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold">Atención de Apoderados</h1>
+      <p class="lead text-muted">Encuentra a tu docente y agenda una reunión en su horario disponible.</p>
+      <hr class="w-25 mx-auto border-primary border-3 opacity-75">
+    </div>
+
+    <!-- Buscador de Docentes -->
+    <div class="row justify-content-center mb-5">
+      <div class="col-md-8 col-lg-6">
+        <div class="input-group input-group-lg shadow-sm">
+          <span class="input-group-text bg-white border-end-0 text-primary">
+            <i class="bi bi-search"></i>
+          </span>
+          <input type="text" id="buscadorDocentes" class="form-control border-start-0 ps-0" placeholder="Buscar por nombre del docente o curso..." aria-label="Buscar docente">
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-info d-flex align-items-center mb-5 shadow-sm" role="alert">
+      <i class="bi bi-info-circle-fill me-3 fs-4"></i>
+      <div>
+        <strong>Importante:</strong> Se recomienda solicitar cita previa a través del correo electrónico del docente para asegurar su disponibilidad.
+      </div>
+    </div>
+
+    <!-- Listado de Docentes Jefes -->
+    <section id="docentes-lista">
+      
+      <h2 class="h3 mb-4 text-primary border-bottom pb-2">Educación Pre-Básica</h2>
+      <div class="row">
+        <!-- Juana Muñoz -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="juana muñoz" data-curso="prekinder pre-basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Juana-Munoz.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Juana Muñoz" loading="lazy">
+            <h5 class="card-title mb-1">Juana Muñoz</h5>
+            <p class="text-primary fw-medium mb-3">Prekinder</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Jueves</p>
+              <p class="mb-0">14:15 a 15:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Mabel Mayorga -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="mabel mayorga" data-curso="kinder pre-basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Mabel-Mayorga.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Mabel Mayorga" loading="lazy">
+            <h5 class="card-title mb-1">Mabel Mayorga</h5>
+            <p class="text-primary fw-medium mb-3">Kinder</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Miércoles</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="h3 mb-4 mt-4 text-primary border-bottom pb-2">Educación Básica</h2>
+      <div class="row">
+        <!-- Alicia Adriazola -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="alicia adriazola" data-curso="1º basico primero basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Alicia-Adriazola.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Alicia Adriazola" loading="lazy">
+            <h5 class="card-title mb-1">Alicia Adriazola</h5>
+            <p class="text-primary fw-medium mb-3">1º Básico</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Martes</p>
+              <p class="mb-0">12:00 a 12:45 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Lucila García -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="lucila garcia" data-curso="3º basico tercero basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Lucila-Garcia.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Lucila García" loading="lazy">
+            <h5 class="card-title mb-1">Lucila García</h5>
+            <p class="text-primary fw-medium mb-3">3º Básico</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Viernes</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Ninoska Marty -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="ninoska marty" data-curso="4º basico cuarto basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Ninoska-Marty.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Ninoska Marty" loading="lazy">
+            <h5 class="card-title mb-1">Ninoska Marty</h5>
+            <p class="text-primary fw-medium mb-3">4º Básico</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Lunes</p>
+              <p class="mb-0">14:15 a 15:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Leticia Casanova -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="leticia casanova" data-curso="5º basico quinto basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Leticia-Casanova.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Leticia Casanova" loading="lazy">
+            <h5 class="card-title mb-1">Leticia Casanova</h5>
+            <p class="text-primary fw-medium mb-3">5º Básico</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Lunes</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Paulina Pool -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="paulina pool" data-curso="6º basico sexto basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Paulina-Pool.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Paulina Pool" loading="lazy">
+            <h5 class="card-title mb-1">Paulina Pool</h5>
+            <p class="text-primary fw-medium mb-3">6º Básico</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Martes</p>
+              <p class="mb-0">9:00 a 9:45 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Yasna Del Rio -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="yasna del rio" data-curso="7º basico sepitmo a basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Yasna-Del-Rio.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Yasna Del Rio" loading="lazy">
+            <h5 class="card-title mb-1">Yasna Del Rio</h5>
+            <p class="text-primary fw-medium mb-3">7º Básico A</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Martes</p>
+              <p class="mb-0">10:15 a 11:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Bárbara Marinovic -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="barbara marinovic" data-curso="7º basico septimo b basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/avatar-generico.png" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Bárbara Marinovic" loading="lazy">
+            <h5 class="card-title mb-1">Bárbara Marinovic</h5>
+            <p class="text-primary fw-medium mb-3">7º Básico B</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Jueves</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Victoria Zuñiga -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="victoria zuñiga zuniga" data-curso="8º basico octavo a basica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Victoria-Zuniga.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Victoria Zuñiga" loading="lazy">
+            <h5 class="card-title mb-1">Victoria Zuñiga</h5>
+            <p class="text-primary fw-medium mb-3">8º Básico A</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Martes</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+        <!-- Nedjelka Ruiz -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="nedjelka ruiz" data-curso="8º basico octavo b basica musica">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Nedjelka-Ruiz.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Nedjelka Ruiz" loading="lazy">
+            <h5 class="card-title mb-1">Nedjelka Ruiz</h5>
+            <p class="text-primary fw-medium mb-3">8º Básico B</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Miércoles</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="h3 mb-4 mt-4 text-primary border-bottom pb-2">Profesores de Asignatura</h2>
+      <div class="row">
+        <!-- Patricia Soto -->
+        <div class="col-md-6 col-lg-4 mb-4 docente-card" data-nombre="patricia soto" data-curso="religion evangelica asignatura">
+          <div class="card h-100 border-0 shadow-sm hover-lift text-center py-4">
+            <img src="assets/img/personal/Patricia-Soto.webp" class="rounded-circle mx-auto mb-3 border border-3 border-light shadow-sm" width="100" height="100" alt="Patricia Soto" loading="lazy">
+            <h5 class="card-title mb-1">Patricia Soto</h5>
+            <p class="text-primary fw-medium mb-3">Religión Evangélica</p>
+            <div class="bg-light p-3 rounded mx-3">
+              <i class="bi bi-calendar-check text-primary fs-5 mb-2 d-block"></i>
+              <p class="mb-0 fw-bold">Jueves</p>
+              <p class="mb-0">8:15 a 9:00 hrs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p id="noResults" class="text-center text-muted d-none py-5">
+        <i class="bi bi-search fs-1 d-block mb-3"></i>
+        No se encontraron docentes o cursos que coincidan con tu búsqueda.
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer id="footer"></footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/custom.js" defer></script>
+  
+  <script>
+    // Buscador interactivo de docentes
+    document.addEventListener('DOMContentLoaded', function() {
+      const searchInput = document.getElementById('buscadorDocentes');
+      const cards = document.querySelectorAll('.docente-card');
+      const noResults = document.getElementById('noResults');
+      const categoryHeaders = document.querySelectorAll('h2.h3');
+
+      if(searchInput) {
+        searchInput.addEventListener('input', function(e) {
+          const searchTerm = e.target.value.toLowerCase().trim();
+          let visibleCount = 0;
+
+          // Normalize string to ignore accents
+          const normalizeStr = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+          const normalizedTerm = normalizeStr(searchTerm);
+
+          cards.forEach(card => {
+            const nombre = normalizeStr(card.getAttribute('data-nombre'));
+            const curso = normalizeStr(card.getAttribute('data-curso'));
+            
+            if (nombre.includes(normalizedTerm) || curso.includes(normalizedTerm)) {
+              card.style.display = 'block';
+              visibleCount++;
+            } else {
+              card.style.display = 'none';
+            }
+          });
+
+          // Show/hide no results message
+          if (visibleCount === 0) {
+            noResults.classList.remove('d-none');
+            categoryHeaders.forEach(h => h.style.display = 'none');
+          } else {
+            noResults.classList.add('d-none');
+            
+            // Optionally, check if a category has any visible children to show/hide the header
+            categoryHeaders.forEach(header => {
+              const row = header.nextElementSibling;
+              const hasVisibleChildren = Array.from(row.querySelectorAll('.docente-card')).some(c => c.style.display !== 'none');
+              header.style.display = hasVisibleChildren ? 'block' : 'none';
+            });
+          }
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>
