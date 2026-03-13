@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="talleres\/cuerdas-frotadas-02\.html"/g, 'href="cuerdas-frotadas-02.html"');
             data = data.replace(/href="talleres\/cuerdas-chello\.html"/g, 'href="cuerdas-chello.html"');
             data = data.replace(/href="talleres\/pintura\.html"/g, 'href="pintura.html"');
+            data = data.replace(/href="talleres\/banda-instrumental\.html"/g, 'href="banda-instrumental.html"');
             data = data.replace(/src="assets\/img\//g, 'src="../assets/img/');
             document.body.insertAdjacentHTML("afterbegin", data);
 

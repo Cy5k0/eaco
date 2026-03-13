@@ -1,5 +1,5 @@
 /**
- * Lógica específica para la página de Coro
+ * Lógica específica para la página de Banda Instrumental
  * Escuela de Artes y Cultura
  */
 
@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Ajustar rutas del navbar para subdirectorio
             data = data.replace(/href="index\.html"/g, 'href="../index.html"');
             data = data.replace(/href="horarios\.html"/g, 'href="../horarios.html"');
+            data = data.replace(/href="horarios-atencion-apoderados\.html"/g, 'href="../horarios-atencion-apoderados.html"');
             data = data.replace(/href="documentacion\.html"/g, 'href="../documentacion.html"');
             data = data.replace(/href="enlaces-interes\.html"/g, 'href="../enlaces-interes.html"');
             data = data.replace(/href="lirmi\.html"/g, 'href="../lirmi.html"');
@@ -21,6 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="programa-pie\.html"/g, 'href="../programa-pie.html"');
             data = data.replace(/href="convivencia-inspectoria\.html"/g, 'href="../convivencia-inspectoria.html"');
             data = data.replace(/href="mision-vision\.html"/g, 'href="../mision-vision.html"');
+            
+            // Corregir enlaces de otros talleres cuando se navega entre ellos
             data = data.replace(/href="talleres\/folclore\.html"/g, 'href="folclore.html"');
             data = data.replace(/href="talleres\/coro\.html"/g, 'href="coro.html"');
             data = data.replace(/href="talleres\/cuerdas-frotadas-01\.html"/g, 'href="cuerdas-frotadas-01.html"');
@@ -28,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             data = data.replace(/href="talleres\/cuerdas-chello\.html"/g, 'href="cuerdas-chello.html"');
             data = data.replace(/href="talleres\/pintura\.html"/g, 'href="pintura.html"');
             data = data.replace(/href="talleres\/banda-instrumental\.html"/g, 'href="banda-instrumental.html"');
+
             data = data.replace(/src="assets\/img\//g, 'src="../assets/img/');
             document.body.insertAdjacentHTML("afterbegin", data);
 
@@ -44,6 +48,9 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch("../components/footer.html")
         .then(response => response.text())
         .then(data => {
+             // Ajustar rutas del footer si es necesario
+             data = data.replace(/href="index\.html"/g, 'href="../index.html"');
+             data = data.replace(/src="assets\/img\//g, 'src="../assets/img/');
             document.body.insertAdjacentHTML("beforeend", data);
         });
 
