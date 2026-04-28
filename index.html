@@ -339,6 +339,21 @@
       <div class="container">
         <h2 class="text-center mb-5">Últimos Avisos</h2>
         <div class="row">
+          <!-- Suspensión de Actividades - 28 Abr -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 shadow-sm border-danger">
+              <div class="card-header bg-danger text-white">28 de Abril, 2026</div>
+              <a href="avisos.html#Corte-Agua-Abril"
+                class="d-flex align-items-center justify-content-center text-danger py-4">
+                <span class="material-icons" style="font-size: 6rem;">water_drop</span>
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-danger">Suspensión de Actividades Escolares</h5>
+                <p class="card-text">Clases suspendidas por hoy martes 28 de abril debido a un corte imprevisto de agua potable en el sector.</p>
+                <a href="avisos.html#Corte-Agua-Abril" class="btn btn-danger">Leer comunicado</a>
+              </div>
+            </div>
+          </div>
           <!-- Reuniones de Apoderados Abril - 23 Abr -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100 shadow-sm border-info">
@@ -420,22 +435,6 @@
                 <p class="card-text">Día de votación: Lunes 27 de abril. Tu participación es fundamental para fortalecer
                   nuestra comunidad educativa.</p>
                 <a href="avisos.html#Elecciones-CGPA" class="btn btn-primary">Ver detalles</a>
-              </div>
-            </div>
-          </div>
-          <!-- Comunicado RICE - 15 Abr -->
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card h-100 shadow-sm">
-              <div class="card-header">15 de Abril, 2026</div>
-              <a href="avisos.html#Actualizacion-RICE"
-                class="d-flex align-items-center justify-content-center text-primary py-4">
-                <span class="material-icons" style="font-size: 6rem;">edit_document</span>
-              </a>
-              <div class="card-body">
-                <h5 class="card-title text-primary">Actualización del Reglamento Interno (RICE)</h5>
-                <p class="card-text">Iniciamos el proceso de actualización de nuestro Reglamento Interno con jornadas
-                  para estudiantes y reuniones con apoderados.</p>
-                <a href="avisos.html#Actualizacion-RICE" class="btn btn-primary">Leer más</a>
               </div>
             </div>
           </div>
@@ -534,39 +533,65 @@
   // ================================================================= -->
 
   <!-- Modal HTML -->
-  <!-- <div class="modal fade" id="avisoModal" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
+  <div class="modal fade" id="avisoModal" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="avisoModalLabel">Información de Fin de Año</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title" id="avisoModalLabel"><i class="bi bi-exclamation-triangle-fill me-2"></i>COMUNICADO URGENTE</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-body" id="avisoModalDesc">
-          <p class="mb-3">
-            <strong>Estimadas familias:</strong>
+        <div class="modal-body p-4" id="avisoModalDesc">
+          <h4 class="text-center mb-4 fw-bold">Suspensión de Actividades Escolares</h4>
+          <p class="mb-1"><strong>Fecha:</strong> 28 de abril de 2026</p>
+          <p class="mb-4"><strong>De:</strong> Dirección Escuela de Artes y Cultura de Osorno</p>
+          
+          <p>Estimada comunidad educativa:</p>
+          <p>
+            Por medio del presente, informamos a todos nuestros estudiantes, padres y apoderados que,
+            debido a un <strong>corte imprevisto en el suministro de agua potable</strong> que afecta a nuestro sector, se
+            han suspendido las clases para la jornada de hoy, <strong>martes 28 de abril</strong>.
           </p>
-          <p class="fw-bold text-primary">
-            ¡Importante! La vuelta a clases es el miércoles 4 de marzo de 2026.
+          <p>
+            Esta medida ha sido adoptada con carácter preventivo y obligatorio, priorizando las
+            condiciones sanitarias básicas necesarias para el normal funcionamiento de nuestro
+            establecimiento y el bienestar de nuestros estudiantes y funcionarios.
           </p>
-          <p class="text-center mt-3">
-            <a href="temp/lista_utiles.html" class="btn btn-outline-primary">Ver Lista de Útiles</a>
+          <p>
+            Lamentamos los inconvenientes que esta situación, ajena a nuestra voluntad, pueda
+            ocasionar en la organización de sus hogares.
           </p>
-          <p class="fw-bold text-end mb-0 mt-4">Atentamente,<br>La Dirección</p>
+          <p>
+            Les solicitamos mantenerse atentos a nuestros canales oficiales de comunicación (página
+            web y redes sociales del establecimiento), por donde informaremos oportunamente la
+            normalización del servicio y el retorno a las actividades escolares.
+          </p>
+          <p>Agradecemos su comprensión y colaboración ante esta contingencia.</p>
+          
+          <div class="d-grid gap-2 mt-4">
+            <a href="temp/corte_agua2804.webp" target="_blank" class="btn btn-outline-info">
+              <i class="bi bi-file-earmark-image me-2"></i>Ver Formulario de Atención (SURALIS)
+            </a>
+          </div>
+
+          <p class="fw-bold text-end mb-0 mt-4">Atentamente,<br>La Dirección Escuela de Artes y Cultura de Osorno</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Entendido</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Script para mostrar el modal al cargar la página -->
-  <!-- <script>
+  <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var myModal = new bootstrap.Modal(document.getElementById('avisoModal'));
-      myModal.show();
+      var modalElement = document.getElementById('avisoModal');
+      if (modalElement) {
+        var myModal = new bootstrap.Modal(modalElement);
+        myModal.show();
+      }
     });
-  </script> -->
+  </script>
 
   <!-- =================================================================
   // FIN BLOQUE MODAL DE AVISO
