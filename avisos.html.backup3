@@ -194,19 +194,6 @@
           <input type="text" class="form-control" placeholder="Buscar aviso...">
           <button class="btn btn-outline-secondary" type="button">Buscar</button>
         </div>
-      </div>
-      <div class="col-md-6">
-        <select class="form-select">
-          <option selected>Filtrar por categoría...</option>
-          <option value="1">Eventos</option>
-          <option value="2">Matrículas</option>
-          <option value="3">General</option>
-          <option value="4">Tips</option>
-        </select>
-      </div>
-    </div>
-    <!-- Lista de Avisos -->
-    <section id="avisos-lista">
       <!-- Revalidación TNE 2026 - Evento Masivo Comuna de Osorno -->
       <article class="aviso-item border-start border-primary border-5" id="Revalidacion-TNE-Masivo-Osorno">
         <div class="row g-4">
@@ -217,7 +204,7 @@
             </header>
             <div class="aviso-content">
               <!-- BLUF: Respuesta directa para optimización AI (Regla 4 GEMINI.md) -->
-              <p><strong>Se informa a la comunidad educativa, padres, apoderados y estudiantes que el día MARTES 26 DE MAYO se realizará un evento masivo de revalidación de la Tarjeta Nacional Estudiantil (TNE) para el año 2026.</strong></p>
+              <p><strong>Se informa a la comunidad educativa, padres, apoderados y estudiantes que el día <strong>MARTES 26 DE MAYO</strong> se realizará un evento masivo de revalidación de la Tarjeta Nacional Estudiantil (TNE) para el año 2026.</strong></p>
 
               <p>El evento se llevará a cabo en la <strong>Corporación Cultural de Osorno</strong>, ubicada en <strong>Manuel Antonio Matta #556, Salón Bar</strong>.</p>
 
@@ -247,6 +234,19 @@
           </div>
         </div>
       </article>
+      </div>
+      <div class="col-md-6">
+        <select class="form-select">
+          <option selected>Filtrar por categoría...</option>
+          <option value="1">Eventos</option>
+          <option value="2">Matrículas</option>
+          <option value="3">General</option>
+          <option value="4">Tips</option>
+        </select>
+      </div>
+    </div>
+    <!-- Lista de Avisos -->
+    <section id="avisos-lista">
       <!-- Día del Estudiante 2026 - 08 Mayo -->
       <article class="aviso-item border-start border-warning border-5" id="Dia-Estudiante-2026">
         <div class="row g-4">

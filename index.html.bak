@@ -339,20 +339,6 @@
       <div class="container">
         <h2 class="text-center mb-5">Últimos Avisos</h2>
         <div class="row">
-        <!-- Revalidación TNE 2026 - Evento Masivo Comuna de Osorno -->
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100 shadow-sm border-primary">
-            <div class="card-header bg-primary text-white">26 de Mayo, 2026</div>
-            <a href="avisos.html#Revalidacion-TNE-Masivo-Osorno" class="d-flex align-items-center justify-content-center py-4">
-              <span class="material-icons text-primary" style="font-size: 6rem;">credit_card</span>
-            </a>
-            <div class="card-body">
-              <h5 class="card-title text-primary">Revalidación TNE 2026 - Evento Masivo Osorno</h5>
-              <p class="card-text">Se informa a la comunidad educativa, padres, apoderados y estudiantes que el día MARTES 26 DE MAYO se realizará un evento masivo de revalidación de la Tarjeta Nacional Estudiantil (TNE) para el año 2026 en la Corporación Cultural de Osorno.</p>
-              <a href="avisos.html#Revalidacion-TNE-Masivo-Osorno" class="btn btn-primary">Ver detalles</a>
-            </div>
-          </div>
-        </div>
           <!-- Día del Estudiante 2026 - 08 Mayo -->
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100 shadow-sm border-warning">
@@ -403,7 +389,7 @@
             <div class="card h-100 shadow-sm border-danger">
               <div class="card-header bg-danger text-white">28 de Abril, 2026</div>
               <a href="avisos.html#Corte-Agua-Abril" class="d-flex align-items-center justify-content-center py-4">
-                <span class="material-icons text-primary" style="font-size: 6rem;">water_drop</span>
+                <span class="material-icons text-danger" style="font-size: 6rem;">water_drop</span>
               </a>
               <div class="card-body">
                 <h5 class="card-title text-danger">Suspensión de Actividades Escolares</h5>
@@ -417,6 +403,22 @@
           <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100 shadow-sm border-info">
               <div class="card-header bg-info text-white">23 de Abril, 2026</div>
+              <a href="avisos.html#Reuniones-Abril"
+                class="d-flex align-items-center justify-content-center text-info py-4">
+                <span class="material-icons" style="font-size: 6rem;">groups</span>
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-info">Reuniones de Apoderados - Abril</h5>
+                <p class="card-text">Invitamos a nuestra comunidad a las reuniones de curso de este mes. Incluye
+                  información sobre el proceso electoral CGPA.</p>
+                <a href="avisos.html#Reuniones-Abril" class="btn btn-info text-white">Ver horarios</a>
+              </div>
+            </div>
+          </div>
+          <!-- Aviso Candidatos CGPA - 22 Abr -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100 shadow-sm border-primary">
+              <div class="card-header bg-primary text-white">22 de Abril, 2026</div>
               <a href="avisos.html#Candidatos-CGPA"
                 class="d-flex align-items-center justify-content-center text-primary py-4">
                 <span class="material-icons" style="font-size: 6rem;">how_to_reg</span>
