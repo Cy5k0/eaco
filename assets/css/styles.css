@@ -9,15 +9,26 @@ body {
   box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
 }
 
-.nav-link {
+.navbar .nav-link {
   color: white !important;
   transition: color 0.3s ease;
 }
 
-.nav-link:hover,
-.nav-link.active {
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
   color: var(--bs-warning) !important;
   font-weight: 500;
+}
+
+/* Custom Tabs for Instructivos */
+.nav-tabs .nav-link {
+  color: var(--bs-primary) !important;
+}
+
+.nav-tabs .nav-link.active {
+  color: #05053a !important;
+  background-color: #fff !important;
+  border-color: #dee2e6 #dee2e6 #fff !important;
 }
 
 .navbar-toggler {
