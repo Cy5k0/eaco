@@ -66,6 +66,62 @@
     }
   </script>
 
+    <!-- FAQPage: preguntas y respuestas directas para AI Overviews (Regla 3 Blueprint AI-First) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es el Taller de Pintura de la Escuela de Artes y Cultura de Osorno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un espacio de creación libre y formación técnica en artes visuales, dirigido por el profesor Julio Del Rio, donde los estudiantes de 5º a 8º año básico descubren su propio lenguaje artístico a través del dominio del color, la línea y la composición."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo se realizan las clases del Taller de Pintura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las clases se realizan los martes de 16:00 a 17:00 horas, para estudiantes de 5º a 8º Básico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se aprende en el Taller de Pintura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se aprende teoría del color, técnicas de dibujo (trazo, perspectiva y encaje), manejo de materiales como pinceles, soportes y pigmentos, y observación y composición para organizar elementos visuales con armonía."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo puedo inscribirme en el Taller de Pintura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para participar, contacta al profesor Julio Del Rio o consulta en la secretaría de la escuela por los procesos de admisión."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Speakable: identifica secciones legibles por asistentes de voz (Regla 3 Blueprint AI-First) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Taller de Pintura - Escuela de Artes y Cultura",
+      "url": "https://www.escueladeartesycultura.com/talleres/pintura.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".taller-hero p.lead", ".descripcion-card"]
+      }
+    }
+    </script>
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicons/apple-icon-60x60.png">
@@ -338,7 +394,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="../assets/js/pintura.js" defer></script>
+    <script src="../assets/js/main.js" defer></script>
 
 </body>
 

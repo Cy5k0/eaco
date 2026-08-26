@@ -2,3 +2,5 @@
 .antigravitycli/
 .cursor/rules/
 .agents/rules/
+
+.agents/rules/*.md
