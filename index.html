@@ -230,6 +230,70 @@
     }
     </script>
 
+  <!-- FAQPage: preguntas frecuentes para AI Overviews (Regla 3 Blueprint AI-First) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Dónde está ubicada la Escuela de Artes y Cultura de Osorno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La Escuela de Artes y Cultura se encuentra en Avenida Zenteno 2471, Osorno, Región de Los Lagos, Chile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué talleres artísticos ofrece la Escuela de Artes y Cultura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La escuela ofrece talleres de música, teatro, danza y artes visuales, incluyendo talleres de coro, folclore, banda instrumental, cuerdas frotadas, violonchelo y pintura."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo puedo contactar con la Escuela de Artes y Cultura?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Puedes contactar llamando al +56 64 223 3179 o escribiendo al correo escuelaartesycultura@daem.imo.cl."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo se realiza la admisión de estudiantes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las postulaciones se realizan a través del Sistema de Admisión Escolar (SAE) del Ministerio de Educación de Chile."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde puedo ver los últimos avisos y noticias de la escuela?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los comunicados oficiales, eventos y novedades se publican en la sección de Avisos del sitio web, que se actualiza periódicamente."
+          }
+        }
+      ]
+    }
+    </script>
+
+  <!-- Speakable: secciones aptas para lectura por asistentes de voz (Regla 3 Blueprint AI-First) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Escuela de Artes y Cultura de Osorno",
+      "url": "https://www.escueladeartesycultura.com",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".briefing-text-column", "#avisos"]
+      }
+    }
+    </script>
+
   <!-- Open Graph -->
   <meta property="og:title" content="Inicio - Escuela de Artes y Cultura">
   <meta property="og:site_name" content="Escuela de Artes y Cultura">

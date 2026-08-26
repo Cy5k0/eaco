@@ -66,6 +66,70 @@
     }
   </script>
 
+    <!-- FAQPage: preguntas y respuestas directas para AI Overviews (Regla 3 Blueprint AI-First) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es el Taller de Coro de la Escuela de Artes y Cultura de Osorno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Coro de la Escuela de Artes y Cultura de Osorno es un elenco artístico formativo integrado por estudiantes de 1° a 8° año básico, orientado al desarrollo de habilidades vocales, musicales y de trabajo colaborativo a través de la práctica coral."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quién dirige el Taller de Coro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El coro es dirigido por la profesora Nedjelka Ruiz, quien cuenta con formación especializada en Metodología Kodály, enfoque pedagógico que promueve el aprendizaje musical a través del canto, el desarrollo auditivo y la comprensión progresiva del lenguaje musical."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo se realizan las clases del Taller de Coro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las clases del Taller de Coro se realizan los viernes para estudiantes de 5º a 8º Básico, de 13:40 a 15:00 horas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué beneficios aporta el canto coral a los estudiantes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El canto coral fortalece la autoestima y la seguridad personal, desarrolla disciplina y constancia, fomenta la empatía al escuchar y armonizar con otros, y estimula el desarrollo cognitivo: memoria, concentración y coordinación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo puedo inscribirme en el Taller de Coro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para participar puedes contactar directamente a la profesora Nedjelka Ruiz o consultar en la secretaría de la escuela por los procesos de admisión."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Speakable: identifica secciones legibles por asistentes de voz (Regla 3 Blueprint AI-First) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Taller de Coro - Escuela de Artes y Cultura",
+      "url": "https://www.escueladeartesycultura.com/talleres/coro.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".taller-hero p.lead", ".descripcion-card"]
+      }
+    }
+    </script>
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicons/apple-icon-60x60.png">
@@ -341,7 +405,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="../assets/js/coro.js" defer></script>
+    <script src="../assets/js/main.js" defer></script>
 
 </body>
 

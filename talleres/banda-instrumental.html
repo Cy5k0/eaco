@@ -73,6 +73,62 @@
     }
   </script>
 
+    <!-- FAQPage: preguntas y respuestas directas para AI Overviews (Regla 3 Blueprint AI-First) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es el Taller de Banda Instrumental de la Escuela de Artes y Cultura de Osorno?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El Taller de Banda Instrumental es el principal ensamble de vientos y percusión de la escuela, dirigido por el profesor Pablo Barrientos. Acoge a estudiantes desde Kinder hasta 8º año básico, quienes descubren el repertorio de los instrumentos de viento y la sección de percusión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuándo se realizan las clases del Taller de Banda Instrumental?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las clases del Taller de Banda Instrumental se realizan los jueves de 16:00 a 17:20 horas, para estudiantes desde Kinder hasta 8º Básico."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué se aprende en el Taller de Banda Instrumental?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se desarrolla la técnica de vientos y percusión (embocadura, respiración diafragmática y rudimentos de batería), el ensamble y trabajo en equipo, la lectura musical aplicada al repertorio y el desarrollo cognitivo a través de la interpretación colectiva."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo puedo sumarme al Taller de Banda Instrumental?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para sumarte al taller, contacta al profesor Pablo Barrientos para recibir más información sobre cupos, selección de instrumentos y detalles."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Speakable: identifica secciones legibles por asistentes de voz (Regla 3 Blueprint AI-First) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Taller de Banda Instrumental - Escuela de Artes y Cultura",
+      "url": "https://www.escueladeartesycultura.com/talleres/banda-instrumental.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".taller-hero p.lead", ".descripcion-card"]
+      }
+    }
+    </script>
+
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="../assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="../assets/img/favicons/apple-icon-60x60.png">
@@ -325,7 +381,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS con el componente Navbar y Footer-->
-    <script src="../assets/js/banda-instrumental.js" defer></script>
+    <script src="../assets/js/main.js" defer></script>
 
 </body>
 

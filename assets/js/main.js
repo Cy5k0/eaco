@@ -1,36 +1,70 @@
+// Componentes compartidos (navbar/footer) cargados dinámicamente.
+// main.js es path-aware: calcula el prefijo ../ según la profundidad de la URL,
+// para que funcione desde la raíz y desde subdirectorios (talleres/).
+
+function getAssetPrefix() {
+  const parts = window.location.pathname.split('/').filter(Boolean);
+  return parts.length > 1 ? '../'.repeat(parts.length - 1) : '';
+}
+
+// Ajusta las rutas relativas del componente (navbar/footer) según el prefijo.
+// 1) Prefija todos los enlaces/recursos relativos con el prefijo de subdirectorio.
+// 2) Solo en subdirectorios (prefix != ''), los enlaces a talleres/ se convierten
+//    en hermanos (sin carpeta talleres/) porque las páginas de talleres viven juntas.
+function rewriteComponentHtml(html, prefix) {
+  html = html.replace(/(href|src)="((?!http|#|\.\.\/)[^"]+)"/g, function (m, attr, url) {
+    return attr + '="' + prefix + url + '"';
+  });
+  if (prefix) {
+    html = html.replace(/href="\.\.\/talleres\/([^"]+)"/g, 'href="$1"');
+  }
+  return html;
+}
+
 document.addEventListener("DOMContentLoaded", function() {
+  const prefix = getAssetPrefix();
+
   // Cargar Navbar
-  fetch("components/navbar.html")
+  fetch(prefix + "components/navbar.html")
     .then(response => response.text())
     .then(data => {
+      data = rewriteComponentHtml(data, prefix);
       document.body.insertAdjacentHTML("afterbegin", data);
+
       // Marcar el enlace activo
       const currentPage = window.location.pathname.split("/").pop();
       if (currentPage === "" || currentPage === "index.html") {
         const link = document.querySelector('a[href="index.html"]');
-        if(link) link.classList.add("active");
+        if (link) link.classList.add("active");
       } else {
         const link = document.querySelector(`a[href="${currentPage}"]`);
-        if (link) {
-          link.classList.add("active");
-        }
+        if (link) link.classList.add("active");
+      }
+
+      // Marcar "Talleres" como activo cuando se está dentro de un taller
+      if (window.location.pathname.includes("/talleres/")) {
+        const allDropdowns = document.querySelectorAll('.nav-link.dropdown-toggle');
+        allDropdowns.forEach(el => {
+          if (el.textContent.trim().includes('Talleres')) {
+            el.classList.add('active');
+          }
+        });
       }
     });
 
   // Cargar Footer
-  fetch("components/footer.html")
+  fetch(prefix + "components/footer.html")
     .then(response => response.text())
     .then(data => {
-      document.body.insertAdjacentHTML("beforeend", data);
+      document.body.insertAdjacentHTML("beforeend", rewriteComponentHtml(data, prefix));
     });
 
   // Smooth scrolling
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
       e.preventDefault();
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth' });
     });
   });
 
@@ -61,35 +95,9 @@ document.addEventListener("DOMContentLoaded", function() {
       pause: 'hover'
     });
   }
-
-  // Debug: Verificar si los elementos clickeables están funcionando
-  console.log('Verificando elementos clickeables...');
-  
-  // Verificar elementos teacher-contact
-  const teacherContacts = document.querySelectorAll('.teacher-contact');
-  console.log('Elementos teacher-contact encontrados:', teacherContacts.length);
-  
-  teacherContacts.forEach((element, index) => {
-    console.log(`Elemento ${index}:`, element);
-    element.addEventListener('click', function(e) {
-      console.log('Click detectado en teacher-contact:', e.target);
-    });
-  });
-
-  // Verificar botones
-  const buttons = document.querySelectorAll('.btn');
-  console.log('Botones encontrados:', buttons.length);
-  
-  buttons.forEach((button, index) => {
-    console.log(`Botón ${index}:`, button);
-    button.addEventListener('click', function(e) {
-      console.log('Click detectado en botón:', e.target);
-    });
-  });
 });
 
 // Btn copiar texto
-
 function copiarTexto(texto) {
   navigator.clipboard.writeText(texto).then(() => {
     alert("Texto copiado al portapapeles!");
@@ -100,11 +108,7 @@ function copiarTexto(texto) {
 
 // Función para copiar email de profesores
 function copiarEmail(email) {
-  console.log('Función copiarEmail llamada con:', email);
-  
   navigator.clipboard.writeText(email).then(() => {
-    console.log('Email copiado exitosamente:', email);
-    
     // Crear notificación personalizada
     const notification = document.createElement('div');
     notification.className = 'email-notification';
@@ -113,12 +117,12 @@ function copiarEmail(email) {
       <span>Email copiado: ${email}</span>
     `;
     document.body.appendChild(notification);
-    
+
     // Mostrar notificación
     setTimeout(() => {
       notification.classList.add('show');
     }, 100);
-    
+
     // Ocultar notificación después de 3 segundos
     setTimeout(() => {
       notification.classList.remove('show');
