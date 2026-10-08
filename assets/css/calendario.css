@@ -1,0 +1,286 @@
+/* ==========================================================================
+   Estilos para Calendario de Actividades - Escuela de Artes y Cultura
+   ========================================================================== */
+
+/* Variables locales y de categoría */
+:root {
+  --cal-primary: #07074C;
+  --cal-secondary: #5F5F83;
+  --cal-accent: #E7E78A;
+  --cal-card-bg: #ffffff;
+  --cal-border: #e9ecef;
+  --cal-shadow: 0 4px 15px rgba(7, 7, 76, 0.07);
+  --cal-shadow-hover: 0 8px 25px rgba(7, 7, 76, 0.15);
+}
+
+/* Tarjeta de actividad - Base */
+.cal-activity-card {
+  background: var(--cal-card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--cal-border);
+  box-shadow: var(--cal-shadow);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cal-activity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--cal-shadow-hover);
+  border-color: #cbd5e1;
+}
+
+/* Badge de fecha lateral / superior */
+.cal-date-badge {
+  background: linear-gradient(135deg, #07074C 0%, #1a1a6b 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 14px;
+  min-width: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.cal-date-badge .cal-day-number {
+  font-size: 1.85rem;
+  font-weight: 800;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.cal-date-badge .cal-month-name {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--cal-accent);
+  margin-top: 2px;
+}
+
+.cal-date-badge .cal-day-name {
+  font-size: 0.7rem;
+  text-transform: capitalize;
+  opacity: 0.85;
+}
+
+/* Categorías con colores armoniosos */
+.badge-cat {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: capitalize;
+}
+
+.badge-cat-institucional { background-color: #e0e7ff; color: #3730a3; }
+.badge-cat-academica     { background-color: #dbeafe; color: #1e40af; }
+.badge-cat-convivencia   { background-color: #d1fae5; color: #065f46; }
+.badge-cat-apoderados    { background-color: #f3e8ff; color: #6b21a8; }
+.badge-cat-comunidad     { background-color: #cffafe; color: #155e75; }
+.badge-cat-cultura       { background-color: #fef3c7; color: #92400e; }
+.badge-cat-musica        { background-color: #ede9fe; color: #5b21b6; }
+.badge-cat-vacaciones    { background-color: #ffedd5; color: #9a3412; }
+.badge-cat-seguridad     { background-color: #fee2e2; color: #991b1b; }
+.badge-cat-aniversario   { background-color: #fef9c3; color: #854d0e; }
+.badge-cat-salida_pedagogica { background-color: #e0f2fe; color: #075985; }
+.badge-cat-evaluacion    { background-color: #f1f5f9; color: #334155; }
+.badge-cat-artes         { background-color: #fce7f3; color: #9d174d; }
+.badge-cat-ceremonia     { background-color: #f5d0fe; color: #701a75; }
+
+/* Badges de público objetivo */
+.badge-publico {
+  font-size: 0.7rem;
+  background-color: #f8f9fa;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+  padding: 2px 7px;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+/* Detalles de actividad (hora, lugar, etc.) */
+.cal-meta-item {
+  font-size: 0.85rem;
+  color: #4b5563;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+}
+
+.cal-meta-item i {
+  color: var(--cal-primary);
+  font-size: 0.95rem;
+}
+
+/* Estado de actividad */
+.cal-status-confirmed {
+  font-size: 0.7rem;
+  color: #15803d;
+  background-color: #dcfce7;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Estado vacío amigable */
+.cal-empty-state {
+  background: #ffffff;
+  border: 2px dashed #cbd5e1;
+  border-radius: 16px;
+  padding: 40px 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.cal-empty-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  color: var(--cal-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 16px auto;
+}
+
+/* Banner Hero en página completa */
+.cal-hero-banner {
+  background: linear-gradient(135deg, #07074C 0%, #1e1e62 60%, #303080 100%);
+  color: #ffffff;
+  padding: 50px 0 45px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cal-hero-banner::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(231, 231, 138, 0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cal-stats-badge {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 8px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: #ffffff;
+}
+
+/* Barra de filtros */
+.cal-filter-toolbar {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin-top: -30px;
+  position: relative;
+  z-index: 10;
+  border: 1px solid #e2e8f0;
+}
+
+.cal-month-nav {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+}
+
+.cal-month-nav::-webkit-scrollbar {
+  height: 6px;
+}
+
+.cal-month-nav::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 10px;
+}
+
+.cal-month-btn {
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #334155;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.cal-month-btn:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: var(--cal-primary);
+}
+
+.cal-month-btn.active {
+  background: var(--cal-primary);
+  border-color: var(--cal-primary);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(7, 7, 76, 0.25);
+}
+
+.cal-month-btn.current-month {
+  border-color: var(--cal-accent);
+  position: relative;
+}
+
+.cal-month-btn.current-month::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  width: 6px;
+  height: 6px;
+  background: #eab308;
+  border-radius: 50%;
+}
+
+/* Separadores de meses */
+.cal-month-header {
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cal-month-header h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--cal-primary);
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
