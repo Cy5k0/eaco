@@ -115,7 +115,7 @@ function formatearTextoRangoSemana(lunes, domingo) {
  */
 function renderizarEstadoVacio(contenedor) {
   contenedor.innerHTML = `
-    <div class="col-12">
+    <div class="col-12 col-md-10 col-lg-8">
       <div class="cal-empty-state">
         <div class="cal-empty-icon">
           <i class="bi bi-calendar2-check"></i>
@@ -136,7 +136,7 @@ function renderizarEstadoVacio(contenedor) {
 /**
  * Genera el HTML de una tarjeta de actividad semanal
  */
-function crearCardActividad(actividad) {
+function crearCardActividad(actividad, totalActividades = 3) {
   const fInicio = parsearFechaLocal(actividad.fecha_inicio);
   const fFin = parsearFechaLocal(actividad.fecha_fin);
 
@@ -175,8 +175,18 @@ function crearCardActividad(actividad) {
   // Responsables
   const respTexto = (actividad.responsables || []).join(", ");
 
+  // Ajuste de columnas según cantidad para centrado armónico
+  let colClase = "col-12 col-md-6 col-lg-4";
+  if (totalActividades === 1) {
+    colClase = "col-12 col-md-8 col-lg-5";
+  } else if (totalActividades === 2) {
+    colClase = "col-12 col-md-6 col-lg-5";
+  } else {
+    colClase = "col-12 col-md-6 col-lg-4";
+  }
+
   return `
-    <div class="col-12 col-md-6 col-lg-4">
+    <div class="${colClase}">
       <article class="cal-activity-card p-3 h-100">
         <div class="d-flex align-items-start gap-3 mb-3">
           <div class="cal-date-badge">
@@ -285,7 +295,9 @@ async function inicializarActividadesSemana() {
     if (actividadesSemana.length === 0) {
       renderizarEstadoVacio(contenedor);
     } else {
-      contenedor.innerHTML = actividadesSemana.map(crearCardActividad).join("");
+      contenedor.innerHTML = actividadesSemana
+        .map((act, _, arr) => crearCardActividad(act, arr.length))
+        .join("");
     }
   } catch (error) {
     console.error("Error al cargar actividades de la semana:", error);

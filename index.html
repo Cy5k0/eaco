@@ -399,6 +399,42 @@
       </button>
     </header>
 
+    <!-- Actividades de la Semana -->
+    <section id="actividades-semana-section" class="py-5 bg-white border-bottom">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
+          <div>
+            <div class="d-flex align-items-center gap-2 mb-1">
+              <span class="badge bg-primary px-3 py-2 text-uppercase" style="letter-spacing: 0.5px; font-size: 0.75rem;">
+                <i class="bi bi-calendar-week me-1"></i>Agenda Escolar
+              </span>
+              <span class="badge bg-warning text-dark px-2 py-1" style="font-size: 0.75rem;">Año 2026</span>
+            </div>
+            <h2 class="h2 fw-bold text-primary mb-1">
+              Actividades de la Semana
+            </h2>
+            <p class="text-muted mb-0" id="semana-rango-texto">
+              <i class="bi bi-clock-history me-1"></i>Cargando fechas de la semana...
+            </p>
+          </div>
+          <div>
+            <a href="temp/calendario-actividades-2026.html" class="btn btn-primary d-inline-flex align-items-center">
+              <i class="bi bi-calendar3 me-2"></i>Ver calendario completo
+            </a>
+          </div>
+        </div>
+
+        <!-- Contenedor dinámico de actividades de la semana -->
+        <div id="contenedor-actividades-semana" class="row g-4 justify-content-center">
+          <div class="col-12 text-center py-4">
+            <div class="spinner-border text-primary" role="status">
+              <span class="visually-hidden">Cargando actividades...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Avisos -->
     <section id="avisos" class="py-5">
       <div class="container">
@@ -497,42 +533,6 @@
         </div>
         <div class="text-center mt-4">
           <a href="avisos.html" class="btn btn-outline-primary btn-lg">Ver todos los avisos</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Actividades de la Semana -->
-    <section id="actividades-semana-section" class="py-5 bg-white border-top border-bottom">
-      <div class="container">
-        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
-          <div>
-            <div class="d-flex align-items-center gap-2 mb-1">
-              <span class="badge bg-primary px-3 py-2 text-uppercase" style="letter-spacing: 0.5px; font-size: 0.75rem;">
-                <i class="bi bi-calendar-week me-1"></i>Agenda Escolar
-              </span>
-              <span class="badge bg-warning text-dark px-2 py-1" style="font-size: 0.75rem;">Año 2026</span>
-            </div>
-            <h2 class="h2 fw-bold text-primary mb-1">
-              Actividades de la Semana
-            </h2>
-            <p class="text-muted mb-0" id="semana-rango-texto">
-              <i class="bi bi-clock-history me-1"></i>Cargando fechas de la semana...
-            </p>
-          </div>
-          <div>
-            <a href="temp/calendario-actividades-2026.html" class="btn btn-primary d-inline-flex align-items-center">
-              <i class="bi bi-calendar3 me-2"></i>Ver calendario completo
-            </a>
-          </div>
-        </div>
-
-        <!-- Contenedor dinámico de actividades de la semana -->
-        <div id="contenedor-actividades-semana" class="row g-4">
-          <div class="col-12 text-center py-4">
-            <div class="spinner-border text-primary" role="status">
-              <span class="visually-hidden">Cargando actividades...</span>
-            </div>
-          </div>
         </div>
       </div>
     </section>
