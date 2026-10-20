@@ -288,6 +288,61 @@ function actualizarBotonesMes() {
   });
 }
 
+/**
+ * Determina cuál mes debe mostrarse inicialmente al cargar la página:
+ * 1. El mes actual del usuario (ej: 2026-10) si coincide con el año lectivo o tiene actividades.
+ * 2. Si el sistema del usuario está en otro año, busca el mes correspondiente dentro de 2026 (ej: 2026-MM).
+ * 3. Si existe el botón en la barra de navegación aunque no tenga actividades registradas todavía.
+ * 4. Fallback a "todos" solo si está completamente fuera de rango escolar.
+ */
+function determinarMesInicial(actividades) {
+  const hoy = new Date();
+  const anio = hoy.getFullYear();
+  const mesNum = String(hoy.getMonth() + 1).padStart(2, "0");
+  const mesUsuario = `${anio}-${mesNum}`;
+  const mes2026 = `2026-${mesNum}`;
+
+  // Prioridad 1: Hay actividades para el año y mes exacto del usuario
+  if (actividades.some(a => a.fecha_inicio && a.fecha_inicio.startsWith(mesUsuario))) {
+    return mesUsuario;
+  }
+
+  // Prioridad 2: Si el usuario visita en otro año pero el mes existe en el calendario 2026
+  if (actividades.some(a => a.fecha_inicio && a.fecha_inicio.startsWith(mes2026))) {
+    return mes2026;
+  }
+
+  // Prioridad 3: Existe el botón en la barra de meses de la interfaz
+  if (document.querySelector(`.cal-month-btn[data-mes="${mesUsuario}"]`)) {
+    return mesUsuario;
+  }
+  if (document.querySelector(`.cal-month-btn[data-mes="${mes2026}"]`)) {
+    return mes2026;
+  }
+
+  return "todos";
+}
+
+/**
+ * Agrega el indicador visual (.current-month) en el botón correspondiente al mes en curso
+ */
+function actualizarIndicadorMesActual(mesClave) {
+  document.querySelectorAll(".cal-month-btn").forEach(btn => {
+    btn.classList.remove("current-month");
+    if (btn.getAttribute("title") === "Mes en curso") {
+      btn.removeAttribute("title");
+    }
+  });
+
+  if (!mesClave || mesClave === "todos") return;
+
+  const btnActual = document.querySelector(`.cal-month-btn[data-mes="${mesClave}"]`);
+  if (btnActual) {
+    btnActual.classList.add("current-month");
+    btnActual.setAttribute("title", "Mes en curso");
+  }
+}
+
 async function inicializarCalendarioCompleto() {
   const contenedor = document.getElementById("contenedor-calendario-general");
   if (!contenedor) return;
@@ -360,15 +415,27 @@ async function inicializarCalendarioCompleto() {
       });
     }
 
-    // Botón "Mes actual"
+    // Botón "Ir al mes actual"
     const btnMesActual = document.getElementById("btn-ir-mes-actual");
     if (btnMesActual) {
       btnMesActual.addEventListener("click", () => {
-        const hoy = new Date();
-        const mesActualKey = `${hoy.getFullYear()}-${String(hoy.getMonth() + 1).padStart(2, "0")}`;
+        const mesActualKey = determinarMesInicial(todasLasActividades);
         filtroMesActivo = mesActualKey;
+        filtroCategoriaActiva = "todas";
+        terminoBusqueda = "";
+
+        if (selectCat) selectCat.value = "todas";
+        if (searchInput) searchInput.value = "";
+        if (clearBtn) clearBtn.style.display = "none";
+
+        actualizarIndicadorMesActual(mesActualKey);
         actualizarBotonesMes();
         renderizarActividades();
+
+        const btnNav = document.querySelector(`.cal-month-btn[data-mes="${mesActualKey}"]`);
+        if (btnNav && typeof btnNav.scrollIntoView === "function") {
+          btnNav.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+        }
 
         const seccionMes = document.getElementById(`mes-${mesActualKey}`);
         if (seccionMes) {
@@ -377,8 +444,28 @@ async function inicializarCalendarioCompleto() {
       });
     }
 
-    // Render inicial
+    // Seleccionar y mostrar automáticamente el mes en que se encuentra el usuario al cargar
+    const mesInicial = determinarMesInicial(todasLasActividades);
+    filtroMesActivo = mesInicial;
+
+    // Actualizar indicador visual del mes en curso y activar el botón del mes
+    const hoy = new Date();
+    const mesActualNum = String(hoy.getMonth() + 1).padStart(2, "0");
+    const mesActualKey = `${hoy.getFullYear()}-${mesActualNum}`;
+    const mesClaveIndicador = document.querySelector(`.cal-month-btn[data-mes="${mesActualKey}"]`)
+      ? mesActualKey
+      : `2026-${mesActualNum}`;
+    actualizarIndicadorMesActual(mesClaveIndicador);
+    actualizarBotonesMes();
+
+    // Render inicial con el mes actual del usuario
     renderizarActividades();
+
+    // Centrar suavemente el botón del mes activo en la barra de meses
+    const btnNavActivo = document.querySelector(`.cal-month-btn[data-mes="${filtroMesActivo}"]`);
+    if (btnNavActivo && typeof btnNavActivo.scrollIntoView === "function") {
+      btnNavActivo.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+    }
   } catch (err) {
     console.error("Error al cargar calendario de actividades:", err);
     contenedor.innerHTML = `
