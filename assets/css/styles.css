@@ -1952,3 +1952,179 @@ button[data-bs-target="#modalHorario"] {
   line-height: 1.6;
   margin-bottom: 0;
 }
+
+/* ==========================================================================
+   Banner Revista Escolar "Voces en Papel"
+   ========================================================================== */
+.revista-banner-section {
+  background-color: #f8f9fa;
+}
+
+.revista-banner-card {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  background: linear-gradient(135deg, #07074c 0%, #0d1e56 45%, #18337a 100%);
+  border-radius: 1.25rem;
+  padding: 2.5rem 3rem;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(7, 7, 76, 0.18);
+  border: 1px solid rgba(231, 231, 138, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.revista-banner-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 35px rgba(7, 7, 76, 0.28);
+  border-color: rgba(231, 231, 138, 0.7);
+}
+
+.revista-banner-card:focus-visible {
+  outline: 3px solid var(--bs-warning);
+  outline-offset: 4px;
+}
+
+.revista-banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+.revista-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(231, 231, 138, 0.15);
+  border: 1px solid rgba(231, 231, 138, 0.4);
+  color: #fef08a;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.35rem 0.9rem;
+  border-radius: 50rem;
+  backdrop-filter: blur(4px);
+}
+
+.revista-banner-title {
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: clamp(1.65rem, 2.8vw, 2.35rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.revista-title-highlight {
+  color: #fef08a;
+  background: linear-gradient(90deg, #fef08a, #facc15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.revista-banner-desc {
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(0.95rem, 1.2vw, 1.05rem);
+  line-height: 1.55;
+  max-width: 650px;
+}
+
+.revista-cta-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.revista-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #facc15;
+  color: #07074c;
+  font-weight: 700;
+  font-size: 1.05rem;
+  padding: 0.85rem 1.85rem;
+  border-radius: 50rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+  white-space: nowrap;
+}
+
+.revista-banner-card:hover .revista-cta-btn {
+  background-color: #fef08a;
+  transform: scale(1.04);
+  box-shadow: 0 8px 22px rgba(250, 204, 21, 0.45);
+}
+
+.revista-cta-btn i {
+  transition: transform 0.25s ease;
+}
+
+.revista-banner-card:hover .revista-cta-btn i {
+  transform: translate(2px, -2px);
+}
+
+.revista-cta-subtext {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.8rem;
+  letter-spacing: 0.02em;
+}
+
+.revista-banner-card:hover .revista-cta-subtext {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* Elementos decorativos */
+.revista-decor-circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.revista-decor-1 {
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(231, 231, 138, 0.12) 0%, rgba(231, 231, 138, 0) 70%);
+  top: -100px;
+  right: 15%;
+}
+
+.revista-decor-2 {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+  bottom: -90px;
+  left: -50px;
+}
+
+.revista-decor-icon {
+  position: absolute;
+  right: -25px;
+  bottom: -35px;
+  font-size: 13rem;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.04);
+  pointer-events: none;
+  transform: rotate(-12deg);
+  z-index: 1;
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.revista-banner-card:hover .revista-decor-icon {
+  transform: rotate(-6deg) scale(1.05);
+  color: rgba(231, 231, 138, 0.07);
+}
+
+@media (max-width: 991.98px) {
+  .revista-banner-card {
+    padding: 2rem 1.5rem;
+  }
+  .revista-cta-wrapper {
+    width: 100%;
+  }
+  .revista-cta-btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
