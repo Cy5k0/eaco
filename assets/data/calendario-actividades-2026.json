@@ -4,9 +4,8 @@
     "anio": 2026,
     "titulo": "Calendario Anual de Actividades 2026",
     "descripcion": "Actividades, reuniones, celebraciones y eventos de la comunidad educativa.",
-    "ultima_actualizacion": "2026-10-08"
+    "ultima_actualizacion": "2026-11-12"
   },
-
   "actividades": [
     {
       "id": "2026-03-02-reanudacion-actividades",
@@ -23,7 +22,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-03-04-inicio-clases",
       "fecha_inicio": "2026-03-04",
@@ -39,7 +37,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-03-09-dia-internacional-mujer",
       "fecha_inicio": "2026-03-09",
@@ -55,7 +52,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-03-16-reunion-apoderados",
       "fecha_inicio": "2026-03-16",
@@ -71,7 +67,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-03-31-feria-emprendedores",
       "fecha_inicio": "2026-03-31",
@@ -87,7 +82,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-05-07-feria-emprendedores",
       "fecha_inicio": "2026-05-07",
@@ -103,7 +97,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-05-12-dia-estudiante",
       "fecha_inicio": "2026-05-12",
@@ -119,7 +112,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-06-02-reunion-apoderados",
       "fecha_inicio": "2026-06-02",
@@ -135,7 +127,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-06-25-trafkintu",
       "fecha_inicio": "2026-06-25",
@@ -151,7 +142,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-06-30-presentacion-taller-cuerdas",
       "fecha_inicio": "2026-06-30",
@@ -167,7 +157,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-07-02-ultimo-dia-clases",
       "fecha_inicio": "2026-07-02",
@@ -183,7 +172,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-07-06-vacaciones-invierno",
       "fecha_inicio": "2026-07-06",
@@ -199,7 +187,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-07-27-inicio-segundo-semestre",
       "fecha_inicio": "2026-07-27",
@@ -215,7 +202,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-08-12-dia-nino",
       "fecha_inicio": "2026-08-12",
@@ -231,7 +217,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-08-12-concierto-invierno",
       "fecha_inicio": "2026-08-12",
@@ -247,7 +232,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-08-28-simulacro",
       "fecha_inicio": "2026-08-28",
@@ -263,7 +247,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-09-15-fiestas-patrias",
       "fecha_inicio": "2026-09-15",
@@ -279,7 +262,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-08-salida-coro",
       "fecha_inicio": "2026-10-08",
@@ -295,15 +277,14 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-13-cantautora-sofia-gonzalez",
       "fecha_inicio": "2026-10-13",
       "fecha_fin": null,
       "hora_inicio": "10:15",
       "hora_fin": null,
-      "titulo": "Presentación de la cantautora Sofía González",
-      "descripcion": "Presentación de la cantautora Sofía González. Asiste todo el segundo ciclo.",
+      "titulo": "Presentación de la cantautora Emilia Díaz",
+      "descripcion": "Presentación de la cantautora Emilia Díaz en el gimnasio. Asiste todo el segundo ciclo.",
       "categoria": "musica",
       "publico": ["estudiantes", "docentes"],
       "responsables": ["Pablo"],
@@ -311,7 +292,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-19-aniversario-eaco",
       "fecha_inicio": "2026-10-19",
@@ -327,7 +307,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-21-salida-puyehue",
       "fecha_inicio": "2026-10-21",
@@ -343,7 +322,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-22-feria-ciencias",
       "fecha_inicio": "2026-10-22",
@@ -359,7 +337,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-23-encuentro-orquestas",
       "fecha_inicio": "2026-10-23",
@@ -375,7 +352,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-24-encuentro-orquestas-concierto",
       "fecha_inicio": "2026-10-24",
@@ -391,7 +367,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-28-simce-6",
       "fecha_inicio": "2026-10-28",
@@ -407,7 +382,6 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
       "id": "2026-10-31-bingo",
       "fecha_inicio": "2026-10-31",
@@ -423,31 +397,269 @@
       "estado": "confirmada",
       "visible": true
     },
-
     {
-      "id": "2026-11-24-muestra-elencos",
-      "fecha_inicio": "2026-11-24",
+      "id": "2026-11-03-salida-prekinder-san-mateo",
+      "fecha_inicio": "2026-11-03",
       "fecha_fin": null,
-      "hora_inicio": "14:00",
+      "hora_inicio": "10:30",
+      "hora_fin": "12:30",
+      "titulo": "Salida de Pre-Kínder al Colegio San Mateo",
+      "descripcion": "Salida pedagógica del nivel Pre-Kínder al Colegio San Mateo.",
+      "categoria": "salida_pedagogica",
+      "publico": ["estudiantes", "apoderados"],
+      "responsables": ["Juanita", "Alicia G."],
+      "ubicacion": "Colegio San Mateo",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-03-final-competencias-matematica",
+      "fecha_inicio": "2026-11-03",
+      "fecha_fin": null,
+      "hora_inicio": null,
       "hora_fin": null,
-      "titulo": "Muestra de Elencos",
-      "descripcion": "Muestra integradora de Coro, Banda, Orquesta y Danza: “Todos Juntos” Los Jaivas.",
-      "categoria": "artes",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Pablo", "Nedjelka", "Esteban"],
+      "titulo": "Final de Competencias de Matemática",
+      "descripcion": "Final interescolar de competencias de matemática entre Escuela de Artes y Cultura, Carlos Condell, Juan Ricardo Sánchez y Escuela Suiza.",
+      "categoria": "academica",
+      "publico": ["estudiantes", "docentes", "comunidad_educativa"],
+      "responsables": ["Departamento de Matemática"],
+      "ubicacion": "Gimnasio EACO",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-04-inicio-campeonato-futbol",
+      "fecha_inicio": "2026-11-04",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Inicio de Campeonato de Fútbol",
+      "descripcion": "Inicio del campeonato interno de fútbol organizado por 3° básico.",
+      "categoria": "convivencia",
+      "publico": ["estudiantes"],
+      "responsables": ["3° Básico"],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
     },
-
+    {
+      "id": "2026-11-04-simce-matematica-lenguaje",
+      "fecha_inicio": "2026-11-04",
+      "fecha_fin": "2026-11-05",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "SIMCE Matemática y Lenguaje",
+      "descripcion": "Aplicación de pruebas SIMCE de Matemática y Lenguaje.",
+      "categoria": "evaluacion",
+      "publico": ["estudiantes", "apoderados", "docentes"],
+      "responsables": ["Carolina", "Ninoska"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-06-encuentro-juegos-tradicionales",
+      "fecha_inicio": "2026-11-06",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Encuentro de Juegos Tradicionales",
+      "descripcion": "Salida de 15 estudiantes de 4° A para participar en el encuentro de juegos tradicionales.",
+      "categoria": "cultura",
+      "publico": ["estudiantes", "apoderados"],
+      "responsables": ["Ninoska", "Zaida"],
+      "ubicacion": "Escuela Juan Ricardo Sánchez",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-13-presentacion-los-de-zenteno",
+      "fecha_inicio": "2026-11-13",
+      "fecha_fin": null,
+      "hora_inicio": "11:00",
+      "hora_fin": null,
+      "titulo": "Presentación Grupo “Los de Zenteno”",
+      "descripcion": "Presentación musical con la participación de 8 estudiantes de diferentes cursos de segundo ciclo.",
+      "categoria": "musica",
+      "publico": ["estudiantes", "apoderados"],
+      "responsables": ["Pablo Barrientos", "Gabriel López"],
+      "ubicacion": "Instituto Politécnico",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-16-presentacion-danza",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": null,
+      "hora_inicio": "15:00",
+      "hora_fin": null,
+      "titulo": "Presentación de Danza",
+      "descripcion": "Presentación artística con coreografías: Héroes y antihéroes de Marvel, La Sirenita y Hit the Road Jack.",
+      "categoria": "artes",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Ana Saavedra"],
+      "ubicacion": "Gimnasio 3 del Instituto Alemán de Osorno (Pilauco s/n)",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-19-encuentro-coros-entre-lagos",
+      "fecha_inicio": "2026-11-19",
+      "fecha_fin": null,
+      "hora_inicio": "09:00",
+      "hora_fin": "14:00",
+      "titulo": "Encuentro de Coros en Entre Lagos",
+      "descripcion": "Salida y participación del coro escolar en encuentro coral en Entre Lagos.",
+      "categoria": "musica",
+      "publico": ["estudiantes", "apoderados"],
+      "responsables": ["Nedjelka"],
+      "ubicacion": "Entre Lagos",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-19-acto-ya-se-leer",
+      "fecha_inicio": "2026-11-19",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Acto 1° Básico: “Ya sé leer”",
+      "descripcion": "Ceremonia de lectura de estudiantes de 1° básico. Lugar y horario por confirmar.",
+      "categoria": "academica",
+      "publico": ["estudiantes", "apoderados", "docentes"],
+      "responsables": ["Alicia Adriazola"],
+      "ubicacion": "Por confirmar",
+      "estado": "por_confirmar",
+      "visible": true
+    },
+    {
+      "id": "2026-11-19-salida-olimpiadas-matematica",
+      "fecha_inicio": "2026-11-19",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Salida pedagógica campeones Olimpiadas de Matemática",
+      "descripcion": "Salida pedagógica de reconocimiento a los campeones de las Olimpiadas de Matemática.",
+      "categoria": "salida_pedagogica",
+      "publico": ["estudiantes", "apoderados"],
+      "responsables": ["Ninoska", "Zaida"],
+      "ubicacion": "Termas de Aguas Calientes",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-20-dia-educacion-parvularia",
+      "fecha_inicio": "2026-11-20",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Acto Mensual: Día de la Educación Parvularia",
+      "descripcion": "Acto mensual conmemorativo por el Día de la Educación Parvularia (22 de noviembre).",
+      "categoria": "institucional",
+      "publico": ["estudiantes", "docentes", "comunidad_educativa"],
+      "responsables": ["Susan", "Juanita", "Mabel"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-23-ficha-matricula-antiguos",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Entrega de ficha de matrícula estudiantes antiguos",
+      "descripcion": "Entrega de formularios de ficha de matrícula de estudiantes antiguos para ser completados por los apoderados.",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["Francisco"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-24-dia-del-emigrante",
+      "fecha_inicio": "2026-11-24",
+      "fecha_fin": null,
+      "hora_inicio": "09:00",
+      "hora_fin": "12:00",
+      "titulo": "Celebración Día del Emigrante Educación Básica Comunal",
+      "descripcion": "Encuentro comunal de estudiantes extranjeros con participación de otras escuelas y presentación de la coreografía “Todos Juntos”. Actividad exclusiva para estudiantes (sin asistencia de apoderados).",
+      "categoria": "cultura",
+      "publico": ["estudiantes", "docentes"],
+      "responsables": ["Ricardo", "Anita", "Pamela"],
+      "ubicacion": "Gimnasio EACO",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-24-reunion-apoderados",
+      "fecha_inicio": "2026-11-24",
+      "fecha_fin": "2026-11-25",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Reunión de apoderados",
+      "descripcion": "Reuniones de apoderados para organización de la Kermesse y lineamientos de cierre de año.",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["Docentes"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-24-evaluacion-impulso-lector",
+      "fecha_inicio": "2026-11-24",
+      "fecha_fin": "2026-11-25",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Evaluación Impulso Lector 2° básico",
+      "descripcion": "Aplicación de la evaluación Impulso Lector en 2° básico junto a la Agencia de la Calidad.",
+      "categoria": "evaluacion",
+      "publico": ["estudiantes", "docentes"],
+      "responsables": ["UTP", "Agencia de la Calidad"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-25-exposicion-erradicacion-violencia-mujer",
+      "fecha_inicio": "2026-11-25",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Exposición Día Internacional de la Eliminación de la Violencia contra la Mujer",
+      "descripcion": "Exposición de maquetas de género en Plaza de Armas junto al Servicio de la Mujer y Género de la Municipalidad, explicada por estudiantes del establecimiento.",
+      "categoria": "convivencia",
+      "publico": ["estudiantes", "comunidad_educativa"],
+      "responsables": ["Municipalidad", "Julio del Río", "Pablo"],
+      "ubicacion": "Plaza de Armas de Osorno",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-26-muestra-elencos",
+      "fecha_inicio": "2026-11-26",
+      "fecha_fin": null,
+      "hora_inicio": "16:00",
+      "hora_fin": null,
+      "titulo": "Muestra de Elencos",
+      "descripcion": "Muestra integradora de Coro, Banda, Orquesta, Danza y Folclor.",
+      "categoria": "artes",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Ana Saavedra", "Pablo", "Nedjelka", "Esteban", "Ana Lucía"],
+      "ubicacion": "Gimnasio EACO",
+      "estado": "confirmada",
+      "visible": true
+    },
     {
       "id": "2026-11-28-encuentro-frutillar",
       "fecha_inicio": "2026-11-28",
       "fecha_fin": null,
-      "hora_inicio": "10:00",
-      "hora_fin": "16:00",
+      "hora_inicio": "13:00",
+      "hora_fin": "18:00",
       "titulo": "Encuentro de Bandas Instrumentales en Frutillar",
-      "descripcion": "Participación de aproximadamente 30 estudiantes en encuentro de bandas instrumentales.",
+      "descripcion": "Participación de aproximadamente 30 estudiantes en encuentro de bandas instrumentales. Salida a las 13:00 hrs. y presentación de 16:00 a 18:00 hrs.",
       "categoria": "musica",
       "publico": ["estudiantes", "apoderados"],
       "responsables": ["Pablo"],
@@ -455,15 +667,29 @@
       "estado": "confirmada",
       "visible": true
     },
-
+    {
+      "id": "2026-11-30-cierre-promedios-octavo",
+      "fecha_inicio": "2026-11-30",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Cierre de promedios de 8° básico",
+      "descripcion": "Cierre de promedios finales de estudiantes de 8° básico durante la última semana de noviembre.",
+      "categoria": "academica",
+      "publico": ["docentes"],
+      "responsables": ["Docentes"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
     {
       "id": "2026-12-01-muestra-talleres",
       "fecha_inicio": "2026-12-01",
       "fecha_fin": null,
-      "hora_inicio": "10:30",
+      "hora_inicio": "14:00",
       "hora_fin": null,
-      "titulo": "Muestra de Talleres",
-      "descripcion": "Muestra de Banda, Orquesta, Coro, Danza, Artes Visuales, Folclore, Guitarra, Metalófono y Flauta.",
+      "titulo": "Muestra de Talleres y Formación Artística",
+      "descripcion": "Muestra de Banda, Orquesta, Coro, Danza, Artes Visuales, Folclore, Guitarra, Metalófono, Flauta, revista (folletos, videos, expo) y Talleres de Formación Artística 1 y 2 con estudiantes de danza de 1° a 8° básico.",
       "categoria": "artes",
       "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
       "responsables": ["Pablo", "Nedjelka", "Esteban"],
@@ -471,7 +697,156 @@
       "estado": "confirmada",
       "visible": true
     },
-
+    {
+      "id": "2026-12-01-feria-navidena",
+      "fecha_inicio": "2026-12-01",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Feria Navideña",
+      "descripcion": "Feria navideña de la comunidad educativa.",
+      "categoria": "comunidad",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Zaida"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-03-matricula-estudiantes-antiguos",
+      "fecha_inicio": "2026-12-03",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Matrícula estudiantes antiguos",
+      "descripcion": "Proceso de matrícula para estudiantes antiguos del establecimiento.",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["Unidad Educativa", "Profesores Jefe", "Francisco", "Guillermo"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-03-encendido-arbol-navidad-sonesta",
+      "fecha_inicio": "2026-12-03",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Encendido de árbol de Navidad Sonesta - Orquesta",
+      "descripcion": "Participación musical de la Orquesta en el encendido del árbol de Navidad (fecha tentativa).",
+      "categoria": "musica",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Esteban", "Ana Lucía", "Pablo"],
+      "ubicacion": "Hotel Sonesta Osorno",
+      "estado": "por_confirmar",
+      "visible": true
+    },
+    {
+      "id": "2026-12-04-ultimo-dia-clases-octavos",
+      "fecha_inicio": "2026-12-04",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Último día de clases de 8° básico",
+      "descripcion": "Finalización de las actividades lectivas para los estudiantes de octavo año básico.",
+      "categoria": "academica",
+      "publico": ["estudiantes", "apoderados", "docentes"],
+      "responsables": ["UTP"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-05-kermesse-escuela",
+      "fecha_inicio": "2026-12-05",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Kermesse de la Escuela",
+      "descripcion": "Kermesse anual de la Escuela de Artes y Cultura organizada por el Centro de Padres.",
+      "categoria": "comunidad",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Centro de Padres"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-09-matricula-estudiantes-nuevos-sae",
+      "fecha_inicio": "2026-12-09",
+      "fecha_fin": "2026-12-22",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Matrícula estudiantes nuevos SAE",
+      "descripcion": "Período oficial de matrícula para estudiantes nuevos admitidos mediante el Sistema de Admisión Escolar (SAE).",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["Guillermo", "Francisco"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-15-orquesta-cuerdas-escuela-deportiva",
+      "fecha_inicio": "2026-12-15",
+      "fecha_fin": null,
+      "hora_inicio": "14:15",
+      "hora_fin": null,
+      "titulo": "Presentación Orquesta de Cuerdas en Escuela Deportiva",
+      "descripcion": "Participación de la Orquesta de Cuerdas como agrupación invitada en la ceremonia de licenciatura de la Escuela Deportiva.",
+      "categoria": "musica",
+      "publico": ["estudiantes", "apoderados"],
+      "responsables": ["Esteban", "Pablo", "Ana Lucía"],
+      "ubicacion": "Escuela Deportiva",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-15-ultima-reunion-apoderados",
+      "fecha_inicio": "2026-12-15",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Última reunión de apoderados",
+      "descripcion": "Última reunión general de apoderados del año escolar 2026.",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["Profesores Jefe"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-16-entrega-documentos-kinder",
+      "fecha_inicio": "2026-12-16",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Entrega de documentos Kínder",
+      "descripcion": "Entrega de documentación de fin de año para estudiantes de Kínder.",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["Unidad Educativa"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-16-despedida-septimo-a-octavo",
+      "fecha_inicio": "2026-12-16",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Despedida de 7° a 8° básico",
+      "descripcion": "Actividad de despedida organizada por 7° básico para los estudiantes de 8° básico.",
+      "categoria": "convivencia",
+      "publico": ["estudiantes"],
+      "responsables": ["7° Básico", "Unidad Educativa"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
     {
       "id": "2026-12-16-licenciaturas",
       "fecha_inicio": "2026-12-16",
@@ -479,31 +854,59 @@
       "hora_inicio": "15:00",
       "hora_fin": null,
       "titulo": "Ceremonias de licenciatura",
-      "descripcion": "Ceremonia de licenciatura de Kinder y licenciatura de 8° básico.",
+      "descripcion": "Ceremonia de licenciatura de Kínder a las 15:00 hrs. (con participación de Orquesta de 1° y 2° básico) y ceremonia de licenciatura de 8° básico en la Universidad de Los Lagos (con participación de Coro y Orquesta).",
       "categoria": "ceremonia",
       "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
       "responsables": ["Unidad Educativa"],
+      "ubicacion": "Escuela de Artes y Cultura / Universidad de Los Lagos",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-18-encuentro-coros-navidenos",
+      "fecha_inicio": "2026-12-18",
+      "fecha_fin": null,
+      "hora_inicio": "19:00",
+      "hora_fin": null,
+      "titulo": "Encuentro de Coros Navideños",
+      "descripcion": "Participación del coro escolar en el Encuentro de Coros Navideños.",
+      "categoria": "musica",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Nedjelka"],
+      "ubicacion": "Iglesia Luterana",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-21-ceremonia-premiacion-inacap",
+      "fecha_inicio": "2026-12-21",
+      "fecha_fin": null,
+      "hora_inicio": "11:00",
+      "hora_fin": "13:00",
+      "titulo": "Ceremonia de Premiación INACAP",
+      "descripcion": "Ceremonia de premiación de fin de año realizada en INACAP.",
+      "categoria": "ceremonia",
+      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
+      "responsables": ["Nedjelka"],
+      "ubicacion": "INACAP",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-21-entrega-informes-notas",
+      "fecha_inicio": "2026-12-21",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Entrega de informes de notas PK a 7° básico",
+      "descripcion": "Entrega de informes finales de calificaciones para los niveles de Pre-Kínder a 7° básico.",
+      "categoria": "apoderados",
+      "publico": ["apoderados"],
+      "responsables": ["UTP", "Profesores Jefe"],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
     },
-
-    {
-      "id": "2026-12-21-concierto-navidad",
-      "fecha_inicio": "2026-12-21",
-      "fecha_fin": null,
-      "hora_inicio": "18:00",
-      "hora_fin": null,
-      "titulo": "Concierto Musical de Navidad",
-      "descripcion": "Concierto de Navidad con participación de Coro, Banda y Orquesta.",
-      "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Director", "Pablo"],
-      "ubicacion": "Centro Cultural",
-      "estado": "confirmada",
-      "visible": true
-    },
-
     {
       "id": "2026-12-22-ultimo-dia-estudiantes",
       "fecha_inicio": "2026-12-22",
@@ -511,15 +914,44 @@
       "hora_inicio": null,
       "hora_fin": null,
       "titulo": "Último día de clases de los estudiantes",
-      "descripcion": "Finalización de las actividades lectivas de los estudiantes.",
+      "descripcion": "Término de clases, jornada de compartir por curso y finalización de las actividades lectivas de los estudiantes.",
       "categoria": "academica",
       "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Comunidad Educativa"],
+      "responsables": ["Profesores Jefe", "Comunidad Educativa"],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
     },
-
+    {
+      "id": "2026-12-24-celebracion-navidad",
+      "fecha_inicio": "2026-12-24",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Celebración de Navidad Unidad Educativa",
+      "descripcion": "Actividad interna de celebración de Navidad de la Unidad Educativa.",
+      "categoria": "institucional",
+      "publico": ["docentes", "funcionarios"],
+      "responsables": ["Unidad Educativa"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-28-preparacion-ano-academico-2027",
+      "fecha_inicio": "2026-12-28",
+      "fecha_fin": "2026-12-30",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Preparación del año académico 2027",
+      "descripcion": "Jornadas internas de planificación y preparación del año académico 2027.",
+      "categoria": "institucional",
+      "publico": ["docentes", "equipo_directivo", "funcionarios"],
+      "responsables": ["Unidad Educativa"],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
     {
       "id": "2026-12-31-finalizacion-ano",
       "fecha_inicio": "2026-12-31",
@@ -527,10 +959,10 @@
       "hora_inicio": null,
       "hora_fin": null,
       "titulo": "Finalización del año escolar",
-      "descripcion": "Finalización del año escolar 2026.",
+      "descripcion": "Finalización oficial del año escolar 2026.",
       "categoria": "institucional",
       "publico": ["comunidad_educativa"],
-      "responsables": [],
+      "responsables": ["Unidad Educativa"],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
