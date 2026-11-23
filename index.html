@@ -671,55 +671,74 @@
   // ================================================================= -->
 
   <!-- Modal HTML -->
-  <!-- <div class="modal fade" id="avisoModal" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
+  <div class="modal fade" id="avisoModal" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
-      <div class="modal-content">
-        <div class="modal-header bg-success text-white">
-          <h5 class="modal-title" id="avisoModalLabel"><i class="bi bi-info-circle-fill me-2"></i>COMUNICADO:
-            NORMALIZACIÓN DE ACTIVIDADES</h5>
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-content shadow-lg border-0">
+        <div class="modal-header bg-primary text-white">
+          <h5 class="modal-title d-flex align-items-center" id="avisoModalLabel">
+            <i class="bi bi-megaphone-fill me-2"></i>AVISO IMPORTANTE: PROCESO DE MATRÍCULA
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body p-4" id="avisoModalDesc">
-          <h4 class="text-center mb-4 fw-bold">Retorno a Actividades Escolares Normales</h4>
-          <p class="mb-1"><strong>Fecha:</strong> 29 de abril de 2026</p>
-          <p class="mb-4"><strong>De:</strong> Dirección Escuela de Artes y Cultura de Osorno</p>
+        <div class="modal-body p-4 text-center" id="avisoModalDesc">
+          <!-- Logo del establecimiento -->
+          <img src="assets/img/Logo.png" alt="Logo Escuela de Artes y Cultura de Osorno" width="100" height="100" class="img-fluid mb-3">
 
-          <p>Estimada comunidad educativa:</p>
-          <p>
-            Informamos a todos nuestros estudiantes, padres y apoderados que, para la jornada de hoy,
-            <strong>miércoles 29 de abril</strong>, el establecimiento cuenta con el suministro de <strong>agua potable
-              normalizado</strong>.
-          </p>
-          <p>
-            Asimismo, confirmamos que se ha realizado con éxito el <strong>control de calidad del agua por parte de
-              Suralis</strong>,
-            asegurando que las condiciones sanitarias son óptimas para el desarrollo de nuestras actividades escolares.
-          </p>
-          <p>
-            Las clases y talleres se realizarán en sus horarios habituales. Agradecemos su comprensión ante los
-            inconvenientes
-            sufridos el día de ayer y valoramos su colaboración constante.
-          </p>
+          <h4 class="text-primary fw-bold mb-2">Formulario de Matrícula para Estudiantes de Continuidad</h4>
+          <p class="text-muted fw-semibold mb-4">Escuela de Artes y Cultura de Osorno</p>
 
-          <p class="fw-bold text-end mb-0 mt-4">Atentamente,<br>La Dirección Escuela de Artes y Cultura de Osorno</p>
+          <div class="alert alert-light border text-start p-3 mb-4">
+            <p class="mb-2"><strong>Estimada comunidad educativa, padres y apoderados:</strong></p>
+            <p class="mb-2">
+              Les informamos que ya se encuentra habilitado el <strong>Formulario de Matrícula para Estudiantes de Continuidad</strong>.
+            </p>
+            <p class="mb-0">
+              Invitamos a los padres, madres y apoderados a ingresar al formulario oficial en línea y completar la información requerida para el proceso de continuidad escolar.
+            </p>
+          </div>
+
+          <!-- Botón de acceso directo al Formulario -->
+          <div class="d-grid gap-2 col-md-8 mx-auto my-3">
+            <a href="https://forms.gle/RF77CS3br5eAUUa5A" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg shadow-sm">
+              <i class="bi bi-pencil-square me-2"></i>Completar Formulario de Matrícula
+              <i class="bi bi-box-arrow-up-right ms-2 fs-6"></i>
+            </a>
+          </div>
+
+          <p class="text-muted small mb-0">
+            <i class="bi bi-info-circle me-1"></i>El enlace se abrirá en una nueva pestaña (Google Forms).
+          </p>
         </div>
-        <div class="modal-footer">
+        <div class="modal-footer bg-light">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <a href="https://forms.gle/RF77CS3br5eAUUa5A" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary">
+            <i class="bi bi-box-arrow-up-right me-1"></i>Ir al Formulario
+          </a>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Script para mostrar el modal al cargar la página -->
-  <!-- <script>
+  <script>
     document.addEventListener('DOMContentLoaded', function () {
       var modalElement = document.getElementById('avisoModal');
       if (modalElement) {
-        var myModal = new bootstrap.Modal(modalElement);
-        myModal.show();
+        var mostrarModal = function () {
+          if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+            var myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
+            myModal.show();
+          }
+        };
+
+        if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+          mostrarModal();
+        } else {
+          window.addEventListener('load', mostrarModal);
+        }
       }
     });
-  </script> -->
+  </script>
 
   <!-- =================================================================
   // FIN BLOQUE MODAL DE AVISO

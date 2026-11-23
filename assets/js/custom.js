@@ -20,6 +20,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
     return new bootstrap.Popover(popoverTriggerEl);
   });
+
+  // Mostrar modal de aviso automático si existe en la página
+  var modalAviso = document.getElementById('avisoModal');
+  if (modalAviso && typeof bootstrap !== 'undefined') {
+    var myModal = bootstrap.Modal.getOrCreateInstance(modalAviso);
+    myModal.show();
+  }
 });
 
 
