@@ -16,8 +16,13 @@
       "titulo": "Reanudación de actividades docentes",
       "descripcion": "Reanudación de actividades docentes y organización del establecimiento.",
       "categoria": "institucional",
-      "publico": ["docentes", "equipo_directivo"],
-      "responsables": ["Equipo Directivo"],
+      "publico": [
+        "docentes",
+        "equipo_directivo"
+      ],
+      "responsables": [
+        "Equipo Directivo"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -31,8 +36,15 @@
       "titulo": "Inicio de clases y del año lectivo",
       "descripcion": "Inicio de clases y saludo de bienvenida a la comunidad educativa.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados", "docentes", "comunidad_educativa"],
-      "responsables": ["Equipo de Gestión"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Equipo de Gestión"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -46,8 +58,14 @@
       "titulo": "Primer acto: Día Internacional de la Mujer",
       "descripcion": "Actividad relacionada con el Día Internacional de la Mujer y el Plan de Sexualidad, Afectividad y Género.",
       "categoria": "convivencia",
-      "publico": ["estudiantes", "docentes", "comunidad_educativa"],
-      "responsables": ["Equipo de Gestión"],
+      "publico": [
+        "estudiantes",
+        "docentes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Equipo de Gestión"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -61,8 +79,13 @@
       "titulo": "Primera reunión de apoderados",
       "descripcion": "Primera reunión de apoderados de los cursos. Incluye firma de recepción del reglamento interno y selección de directivas de apoderados.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Jefatura de curso", "Inspectoría General"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Jefatura de curso",
+        "Inspectoría General"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -76,8 +99,14 @@
       "titulo": "Cierre de inscripción 2° Feria de Emprendedores EACO",
       "descripcion": "Fecha límite para la inscripción a la 2° Feria de Emprendedores EACO.",
       "categoria": "comunidad",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Zaida Sepúlveda"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Zaida Sepúlveda"
+      ],
       "ubicacion": "Sala 5",
       "estado": "confirmada",
       "visible": true
@@ -91,8 +120,14 @@
       "titulo": "2° Feria de Emprendedores EACO",
       "descripcion": "Segunda Feria de Emprendedores de la Escuela de Artes y Cultura.",
       "categoria": "comunidad",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Zaida Sepúlveda"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Zaida Sepúlveda"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -106,8 +141,14 @@
       "titulo": "Día del Estudiante",
       "descripcion": "Durante las primeras cuatro horas se realizan clases normales. A las 12:00 hrs. se desarrollan actividades en el gimnasio y a las 14:15 hrs. jornada de convivencia por cursos.",
       "categoria": "convivencia",
-      "publico": ["estudiantes"],
-      "responsables": ["Anita", "Convivencia Escolar", "UTP"],
+      "publico": [
+        "estudiantes"
+      ],
+      "responsables": [
+        "Anita",
+        "Convivencia Escolar",
+        "UTP"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -121,8 +162,13 @@
       "titulo": "Reuniones de padres y/o apoderados",
       "descripcion": "Reuniones de padres y apoderados y entrega del primer informe de notas parciales.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["UTP", "Profesores Jefe"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "UTP",
+        "Profesores Jefe"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -136,8 +182,14 @@
       "titulo": "Trafkintu",
       "descripcion": "Encuentro de intercambio de semillas, cultivos, saberes y experiencias.",
       "categoria": "cultura",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Victoria Zúñiga"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Victoria Zúñiga"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -151,8 +203,16 @@
       "titulo": "Presentación de estudiantes iniciales del Taller de Cuerdas",
       "descripcion": "Presentación de estudiantes de 1° a 4° básico.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Esteban González", "Lucía González", "Pablo Ide"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Esteban González",
+        "Lucía González",
+        "Pablo Ide"
+      ],
       "ubicacion": "Amador Barrientos #2305",
       "estado": "confirmada",
       "visible": true
@@ -166,8 +226,14 @@
       "titulo": "Último día de clases del primer semestre",
       "descripcion": "Último día de clases antes de las vacaciones de invierno.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["Comunidad Educativa"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "Comunidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -181,8 +247,14 @@
       "titulo": "Vacaciones de invierno",
       "descripcion": "Período de vacaciones escolares de invierno.",
       "categoria": "vacaciones",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["Unidad Educativa"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
       "ubicacion": null,
       "estado": "confirmada",
       "visible": true
@@ -196,8 +268,15 @@
       "titulo": "Inicio del segundo semestre",
       "descripcion": "Inicio del segundo semestre y actualización de lineamientos y calendario de actividades.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["Director", "Equipo de Gestión"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "Director",
+        "Equipo de Gestión"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -211,8 +290,13 @@
       "titulo": "Día del Niño",
       "descripcion": "Actividades recreativas y juegos para los estudiantes.",
       "categoria": "convivencia",
-      "publico": ["estudiantes"],
-      "responsables": ["Convivencia Escolar", "PIE"],
+      "publico": [
+        "estudiantes"
+      ],
+      "responsables": [
+        "Convivencia Escolar",
+        "PIE"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -226,8 +310,14 @@
       "titulo": "Concierto de Invierno - Taller de Cuerdas",
       "descripcion": "Concierto de estudiantes del Taller de Cuerdas.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Esteban González Seguel"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Esteban González Seguel"
+      ],
       "ubicacion": "Teatro Municipal de Osorno",
       "estado": "confirmada",
       "visible": true
@@ -241,8 +331,14 @@
       "titulo": "Simulacro",
       "descripcion": "Actividad de preparación y seguridad escolar.",
       "categoria": "seguridad",
-      "publico": ["estudiantes", "docentes", "funcionarios"],
-      "responsables": ["Comité de Seguridad Escolar"],
+      "publico": [
+        "estudiantes",
+        "docentes",
+        "funcionarios"
+      ],
+      "responsables": [
+        "Comité de Seguridad Escolar"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -256,8 +352,17 @@
       "titulo": "Acto de Fiestas Patrias",
       "descripcion": "Acto conmemorativo de Fiestas Patrias.",
       "categoria": "cultura",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Pablo", "Anita", "Betsy", "Carolina"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Pablo",
+        "Anita",
+        "Betsy",
+        "Carolina"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -271,8 +376,14 @@
       "titulo": "Salida del Coro a San Juan de la Costa",
       "descripcion": "Salida del coro con aproximadamente 32 estudiantes.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Nedjelka", "Pablo B."],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Nedjelka",
+        "Pablo B."
+      ],
       "ubicacion": "San Juan de la Costa",
       "estado": "confirmada",
       "visible": true
@@ -286,8 +397,13 @@
       "titulo": "Presentación de la cantautora Emilia Díaz",
       "descripcion": "Presentación de la cantautora Emilia Díaz en el gimnasio. Asiste todo el segundo ciclo.",
       "categoria": "musica",
-      "publico": ["estudiantes", "docentes"],
-      "responsables": ["Pablo"],
+      "publico": [
+        "estudiantes",
+        "docentes"
+      ],
+      "responsables": [
+        "Pablo"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -301,8 +417,16 @@
       "titulo": "Aniversario Escuela de Artes y Cultura",
       "descripcion": "Semana de aniversario de la escuela. Lunes: competencias. Martes: deportes. Miércoles: actividad por definir. Jueves: competencias. Viernes: finalización.",
       "categoria": "aniversario",
-      "publico": ["estudiantes", "apoderados", "docentes", "comunidad_educativa"],
-      "responsables": ["Unidad Educativa", "Centro de Padres"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Unidad Educativa",
+        "Centro de Padres"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -316,8 +440,14 @@
       "titulo": "Salida pedagógica de 5° básico",
       "descripcion": "Salida pedagógica al Parque Nacional Puyehue.",
       "categoria": "salida_pedagogica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Lucila", "Lety"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Lucila",
+        "Lety"
+      ],
       "ubicacion": "Parque Nacional Puyehue",
       "estado": "confirmada",
       "visible": true
@@ -331,8 +461,15 @@
       "titulo": "Feria de Ciencias",
       "descripcion": "Feria de Ciencias correspondiente a 7° A.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Victoria", "7° A"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Victoria",
+        "7° A"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -346,8 +483,14 @@
       "titulo": "II Encuentro de Orquestas Juveniles e Infantiles Osorno 2026",
       "descripcion": "Encuentro musical con participación de distintas agrupaciones y la Orquesta EACO.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Esteban González S."],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Esteban González S."
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -361,8 +504,14 @@
       "titulo": "Concierto de cierre - II Encuentro de Orquestas",
       "descripcion": "Concierto de cierre del II Encuentro de Orquestas Juveniles e Infantiles Osorno 2026.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Esteban González S."],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Esteban González S."
+      ],
       "ubicacion": "Gimnasio del Lero",
       "estado": "confirmada",
       "visible": true
@@ -376,8 +525,14 @@
       "titulo": "SIMCE 6° básico",
       "descripcion": "Aplicación del SIMCE a estudiantes de 6° básico.",
       "categoria": "evaluacion",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["EACO"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "EACO"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -391,8 +546,13 @@
       "titulo": "Bingo Centro de Padres",
       "descripcion": "Bingo del Centro de Padres con temática de Halloween.",
       "categoria": "comunidad",
-      "publico": ["apoderados", "comunidad_educativa"],
-      "responsables": ["CGPYA"],
+      "publico": [
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "CGPYA"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -406,8 +566,14 @@
       "titulo": "Salida de Pre-Kínder al Colegio San Mateo",
       "descripcion": "Salida pedagógica del nivel Pre-Kínder al Colegio San Mateo.",
       "categoria": "salida_pedagogica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Juanita", "Alicia G."],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Juanita",
+        "Alicia G."
+      ],
       "ubicacion": "Colegio San Mateo",
       "estado": "confirmada",
       "visible": true
@@ -421,8 +587,14 @@
       "titulo": "Final de Competencias de Matemática",
       "descripcion": "Final interescolar de competencias de matemática entre Escuela de Artes y Cultura, Carlos Condell, Juan Ricardo Sánchez y Escuela Suiza.",
       "categoria": "academica",
-      "publico": ["estudiantes", "docentes", "comunidad_educativa"],
-      "responsables": ["Departamento de Matemática"],
+      "publico": [
+        "estudiantes",
+        "docentes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Departamento de Matemática"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -436,8 +608,12 @@
       "titulo": "Inicio de Campeonato de Fútbol",
       "descripcion": "Inicio del campeonato interno de fútbol organizado por 3° básico.",
       "categoria": "convivencia",
-      "publico": ["estudiantes"],
-      "responsables": ["3° Básico"],
+      "publico": [
+        "estudiantes"
+      ],
+      "responsables": [
+        "3° Básico"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -451,8 +627,15 @@
       "titulo": "SIMCE Matemática y Lenguaje",
       "descripcion": "Aplicación de pruebas SIMCE de Matemática y Lenguaje.",
       "categoria": "evaluacion",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["Carolina", "Ninoska"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "Carolina",
+        "Ninoska"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -466,8 +649,14 @@
       "titulo": "Encuentro de Juegos Tradicionales",
       "descripcion": "Salida de 15 estudiantes de 4° A para participar en el encuentro de juegos tradicionales.",
       "categoria": "cultura",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Ninoska", "Zaida"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Ninoska",
+        "Zaida"
+      ],
       "ubicacion": "Escuela Juan Ricardo Sánchez",
       "estado": "confirmada",
       "visible": true
@@ -481,8 +670,14 @@
       "titulo": "Presentación Grupo “Los de Zenteno”",
       "descripcion": "Presentación musical con la participación de 8 estudiantes de diferentes cursos de segundo ciclo.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Pablo Barrientos", "Gabriel López"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Pablo Barrientos",
+        "Gabriel López"
+      ],
       "ubicacion": "Instituto Politécnico",
       "estado": "confirmada",
       "visible": true
@@ -496,8 +691,14 @@
       "titulo": "Presentación de Danza",
       "descripcion": "Presentación artística con coreografías: Héroes y antihéroes de Marvel, La Sirenita y Hit the Road Jack.",
       "categoria": "artes",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Ana Saavedra"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Ana Saavedra"
+      ],
       "ubicacion": "Gimnasio 3 del Instituto Alemán de Osorno (Pilauco s/n)",
       "estado": "confirmada",
       "visible": true
@@ -511,8 +712,13 @@
       "titulo": "Encuentro de Coros en Entre Lagos",
       "descripcion": "Salida y participación del coro escolar en encuentro coral en Entre Lagos.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Nedjelka"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Nedjelka"
+      ],
       "ubicacion": "Entre Lagos",
       "estado": "confirmada",
       "visible": true
@@ -526,8 +732,14 @@
       "titulo": "Acto 1° Básico: “Ya sé leer”",
       "descripcion": "Ceremonia de lectura de estudiantes de 1° básico. Lugar y horario por confirmar.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["Alicia Adriazola"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "Alicia Adriazola"
+      ],
       "ubicacion": "Por confirmar",
       "estado": "por_confirmar",
       "visible": true
@@ -541,8 +753,14 @@
       "titulo": "Salida pedagógica campeones Olimpiadas de Matemática",
       "descripcion": "Salida pedagógica de reconocimiento a los campeones de las Olimpiadas de Matemática.",
       "categoria": "salida_pedagogica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Ninoska", "Zaida"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Ninoska",
+        "Zaida"
+      ],
       "ubicacion": "Termas de Aguas Calientes",
       "estado": "confirmada",
       "visible": true
@@ -556,23 +774,16 @@
       "titulo": "Acto Mensual: Día de la Educación Parvularia",
       "descripcion": "Acto mensual conmemorativo por el Día de la Educación Parvularia (22 de noviembre).",
       "categoria": "institucional",
-      "publico": ["estudiantes", "docentes", "comunidad_educativa"],
-      "responsables": ["Susan", "Juanita", "Mabel"],
-      "ubicacion": "Escuela de Artes y Cultura",
-      "estado": "confirmada",
-      "visible": true
-    },
-    {
-      "id": "2026-11-23-ficha-matricula-antiguos",
-      "fecha_inicio": "2026-11-23",
-      "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Entrega de ficha de matrícula estudiantes antiguos",
-      "descripcion": "Entrega de formularios de ficha de matrícula de estudiantes antiguos para ser completados por los apoderados.",
-      "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Francisco"],
+      "publico": [
+        "estudiantes",
+        "docentes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Susan",
+        "Juanita",
+        "Mabel"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -586,8 +797,15 @@
       "titulo": "Celebración Día del Emigrante Educación Básica Comunal",
       "descripcion": "Encuentro comunal de estudiantes extranjeros con participación de otras escuelas y presentación de la coreografía “Todos Juntos”. Actividad exclusiva para estudiantes (sin asistencia de apoderados).",
       "categoria": "cultura",
-      "publico": ["estudiantes", "docentes"],
-      "responsables": ["Ricardo", "Anita", "Pamela"],
+      "publico": [
+        "estudiantes",
+        "docentes"
+      ],
+      "responsables": [
+        "Ricardo",
+        "Anita",
+        "Pamela"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -601,8 +819,12 @@
       "titulo": "Reunión de apoderados",
       "descripcion": "Reuniones de apoderados para organización de la Kermesse y lineamientos de cierre de año.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Docentes"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Docentes"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -616,8 +838,14 @@
       "titulo": "Evaluación Impulso Lector 2° básico",
       "descripcion": "Aplicación de la evaluación Impulso Lector en 2° básico junto a la Agencia de la Calidad.",
       "categoria": "evaluacion",
-      "publico": ["estudiantes", "docentes"],
-      "responsables": ["UTP", "Agencia de la Calidad"],
+      "publico": [
+        "estudiantes",
+        "docentes"
+      ],
+      "responsables": [
+        "UTP",
+        "Agencia de la Calidad"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -631,8 +859,15 @@
       "titulo": "Exposición Día Internacional de la Eliminación de la Violencia contra la Mujer",
       "descripcion": "Exposición de maquetas de género en Plaza de Armas junto al Servicio de la Mujer y Género de la Municipalidad, explicada por estudiantes del establecimiento.",
       "categoria": "convivencia",
-      "publico": ["estudiantes", "comunidad_educativa"],
-      "responsables": ["Municipalidad", "Julio del Río", "Pablo"],
+      "publico": [
+        "estudiantes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Municipalidad",
+        "Julio del Río",
+        "Pablo"
+      ],
       "ubicacion": "Plaza de Armas de Osorno",
       "estado": "confirmada",
       "visible": true
@@ -646,8 +881,18 @@
       "titulo": "Muestra de Elencos",
       "descripcion": "Muestra integradora de Coro, Banda, Orquesta, Danza y Folclor.",
       "categoria": "artes",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Ana Saavedra", "Pablo", "Nedjelka", "Esteban", "Ana Lucía"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Ana Saavedra",
+        "Pablo",
+        "Nedjelka",
+        "Esteban",
+        "Ana Lucía"
+      ],
       "ubicacion": "Gimnasio EACO",
       "estado": "confirmada",
       "visible": true
@@ -661,8 +906,13 @@
       "titulo": "Encuentro de Bandas Instrumentales en Frutillar",
       "descripcion": "Participación de aproximadamente 30 estudiantes en encuentro de bandas instrumentales. Salida a las 13:00 hrs. y presentación de 16:00 a 18:00 hrs.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Pablo"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Pablo"
+      ],
       "ubicacion": "Frutillar, junto al Teatro del Lago",
       "estado": "confirmada",
       "visible": true
@@ -676,8 +926,12 @@
       "titulo": "Cierre de promedios de 8° básico",
       "descripcion": "Cierre de promedios finales de estudiantes de 8° básico durante la última semana de noviembre.",
       "categoria": "academica",
-      "publico": ["docentes"],
-      "responsables": ["Docentes"],
+      "publico": [
+        "docentes"
+      ],
+      "responsables": [
+        "Docentes"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -691,8 +945,16 @@
       "titulo": "Muestra de Talleres y Formación Artística",
       "descripcion": "Muestra de Banda, Orquesta, Coro, Danza, Artes Visuales, Folclore, Guitarra, Metalófono, Flauta, revista (folletos, videos, expo) y Talleres de Formación Artística 1 y 2 con estudiantes de danza de 1° a 8° básico.",
       "categoria": "artes",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Pablo", "Nedjelka", "Esteban"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Pablo",
+        "Nedjelka",
+        "Esteban"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -706,8 +968,14 @@
       "titulo": "Feria Navideña",
       "descripcion": "Feria navideña de la comunidad educativa.",
       "categoria": "comunidad",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Zaida"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Zaida"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -721,8 +989,15 @@
       "titulo": "Matrícula estudiantes antiguos",
       "descripcion": "Proceso de matrícula para estudiantes antiguos del establecimiento.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Unidad Educativa", "Profesores Jefe", "Francisco", "Guillermo"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Unidad Educativa",
+        "Profesores Jefe",
+        "Francisco",
+        "Guillermo"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -736,8 +1011,16 @@
       "titulo": "Encendido de árbol de Navidad Sonesta - Orquesta",
       "descripcion": "Participación musical de la Orquesta en el encendido del árbol de Navidad (fecha tentativa).",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Esteban", "Ana Lucía", "Pablo"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Esteban",
+        "Ana Lucía",
+        "Pablo"
+      ],
       "ubicacion": "Hotel Sonesta Osorno",
       "estado": "por_confirmar",
       "visible": true
@@ -751,8 +1034,14 @@
       "titulo": "Último día de clases de 8° básico",
       "descripcion": "Finalización de las actividades lectivas para los estudiantes de octavo año básico.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados", "docentes"],
-      "responsables": ["UTP"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "UTP"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -766,8 +1055,14 @@
       "titulo": "Kermesse de la Escuela",
       "descripcion": "Kermesse anual de la Escuela de Artes y Cultura organizada por el Centro de Padres.",
       "categoria": "comunidad",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Centro de Padres"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Centro de Padres"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -781,8 +1076,13 @@
       "titulo": "Matrícula estudiantes nuevos SAE",
       "descripcion": "Período oficial de matrícula para estudiantes nuevos admitidos mediante el Sistema de Admisión Escolar (SAE).",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Guillermo", "Francisco"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Guillermo",
+        "Francisco"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -796,8 +1096,15 @@
       "titulo": "Presentación Orquesta de Cuerdas en Escuela Deportiva",
       "descripcion": "Participación de la Orquesta de Cuerdas como agrupación invitada en la ceremonia de licenciatura de la Escuela Deportiva.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Esteban", "Pablo", "Ana Lucía"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Esteban",
+        "Pablo",
+        "Ana Lucía"
+      ],
       "ubicacion": "Escuela Deportiva",
       "estado": "confirmada",
       "visible": true
@@ -811,8 +1118,12 @@
       "titulo": "Última reunión de apoderados",
       "descripcion": "Última reunión general de apoderados del año escolar 2026.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Profesores Jefe"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Profesores Jefe"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -826,8 +1137,12 @@
       "titulo": "Entrega de documentos Kínder",
       "descripcion": "Entrega de documentación de fin de año para estudiantes de Kínder.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["Unidad Educativa"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -841,8 +1156,13 @@
       "titulo": "Despedida de 7° a 8° básico",
       "descripcion": "Actividad de despedida organizada por 7° básico para los estudiantes de 8° básico.",
       "categoria": "convivencia",
-      "publico": ["estudiantes"],
-      "responsables": ["7° Básico", "Unidad Educativa"],
+      "publico": [
+        "estudiantes"
+      ],
+      "responsables": [
+        "7° Básico",
+        "Unidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -856,8 +1176,14 @@
       "titulo": "Ceremonias de licenciatura",
       "descripcion": "Ceremonia de licenciatura de Kínder a las 15:00 hrs. (con participación de Orquesta de 1° y 2° básico) y ceremonia de licenciatura de 8° básico en la Universidad de Los Lagos (con participación de Coro y Orquesta).",
       "categoria": "ceremonia",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Unidad Educativa"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura / Universidad de Los Lagos",
       "estado": "confirmada",
       "visible": true
@@ -871,8 +1197,14 @@
       "titulo": "Encuentro de Coros Navideños",
       "descripcion": "Participación del coro escolar en el Encuentro de Coros Navideños.",
       "categoria": "musica",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Nedjelka"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Nedjelka"
+      ],
       "ubicacion": "Iglesia Luterana",
       "estado": "confirmada",
       "visible": true
@@ -886,8 +1218,14 @@
       "titulo": "Ceremonia de Premiación INACAP",
       "descripcion": "Ceremonia de premiación de fin de año realizada en INACAP.",
       "categoria": "ceremonia",
-      "publico": ["estudiantes", "apoderados", "comunidad_educativa"],
-      "responsables": ["Nedjelka"],
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Nedjelka"
+      ],
       "ubicacion": "INACAP",
       "estado": "confirmada",
       "visible": true
@@ -901,8 +1239,13 @@
       "titulo": "Entrega de informes de notas PK a 7° básico",
       "descripcion": "Entrega de informes finales de calificaciones para los niveles de Pre-Kínder a 7° básico.",
       "categoria": "apoderados",
-      "publico": ["apoderados"],
-      "responsables": ["UTP", "Profesores Jefe"],
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "UTP",
+        "Profesores Jefe"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -916,8 +1259,14 @@
       "titulo": "Último día de clases de los estudiantes",
       "descripcion": "Término de clases, jornada de compartir por curso y finalización de las actividades lectivas de los estudiantes.",
       "categoria": "academica",
-      "publico": ["estudiantes", "apoderados"],
-      "responsables": ["Profesores Jefe", "Comunidad Educativa"],
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Profesores Jefe",
+        "Comunidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -931,8 +1280,13 @@
       "titulo": "Celebración de Navidad Unidad Educativa",
       "descripcion": "Actividad interna de celebración de Navidad de la Unidad Educativa.",
       "categoria": "institucional",
-      "publico": ["docentes", "funcionarios"],
-      "responsables": ["Unidad Educativa"],
+      "publico": [
+        "docentes",
+        "funcionarios"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -946,8 +1300,14 @@
       "titulo": "Preparación del año académico 2027",
       "descripcion": "Jornadas internas de planificación y preparación del año académico 2027.",
       "categoria": "institucional",
-      "publico": ["docentes", "equipo_directivo", "funcionarios"],
-      "responsables": ["Unidad Educativa"],
+      "publico": [
+        "docentes",
+        "equipo_directivo",
+        "funcionarios"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
@@ -961,8 +1321,12 @@
       "titulo": "Finalización del año escolar",
       "descripcion": "Finalización oficial del año escolar 2026.",
       "categoria": "institucional",
-      "publico": ["comunidad_educativa"],
-      "responsables": ["Unidad Educativa"],
+      "publico": [
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
