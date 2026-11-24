@@ -687,12 +687,12 @@
     <div class="modal-dialog modal-dialog-centered modal-lg">
       <div class="modal-content shadow-lg border-0">
         <div class="modal-header bg-primary text-white">
-          <h5 class="modal-title d-flex align-items-center" id="avisoModalLabel">
-            <i class="bi bi-megaphone-fill me-2"></i>AVISO IMPORTANTE: PROCESO DE MATRÍCULA
+          <h5 class="modal-title" id="avisoModalLabel">
+            <i class="bi bi-megaphone-fill me-2 align-middle"></i><span>AVISO IMPORTANTE: PROCESO DE MATRÍCULA</span>
           </h5>
           <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
         </div>
-        <div class="modal-body p-4 text-center" id="avisoModalDesc">
+        <div class="modal-body p-3 p-sm-4 text-center" id="avisoModalDesc">
           <!-- Logo del establecimiento -->
           <img src="assets/img/Logo.png" alt="Logo Escuela de Artes y Cultura de Osorno" width="100" height="100"
             class="img-fluid mb-3">
@@ -713,10 +713,10 @@
           </div>
 
           <!-- Botón de acceso directo al Formulario -->
-          <div class="d-grid gap-2 col-md-8 mx-auto my-3">
+          <div class="d-grid gap-2 col-12 col-md-8 mx-auto my-3">
             <a href="https://forms.gle/RF77CS3br5eAUUa5A" target="_blank" rel="noopener noreferrer"
-              class="btn btn-primary btn-lg shadow-sm">
-              <i class="bi bi-pencil-square me-2"></i>Completar Formulario de Matrícula
+              class="btn btn-primary btn-lg shadow-sm text-wrap py-2 py-sm-3 px-3">
+              <i class="bi bi-pencil-square me-2"></i><span>Completar Formulario de Matrícula</span>
               <i class="bi bi-box-arrow-up-right ms-2 fs-6"></i>
             </a>
           </div>
@@ -725,37 +725,16 @@
             <i class="bi bi-info-circle me-1"></i>El enlace se abrirá en una nueva pestaña (Google Forms).
           </p>
         </div>
-        <div class="modal-footer bg-light">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <div class="modal-footer bg-light flex-column flex-sm-row justify-content-sm-end gap-2">
+          <button type="button" class="btn btn-secondary w-100 w-sm-auto" data-bs-dismiss="modal">Cerrar</button>
           <a href="https://forms.gle/RF77CS3br5eAUUa5A" target="_blank" rel="noopener noreferrer"
-            class="btn btn-outline-primary">
+            class="btn btn-outline-primary w-100 w-sm-auto">
             <i class="bi bi-box-arrow-up-right me-1"></i>Ir al Formulario
           </a>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Script para mostrar el modal al cargar la página -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var modalElement = document.getElementById('avisoModal');
-      if (modalElement) {
-        var mostrarModal = function () {
-          if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
-            var myModal = bootstrap.Modal.getOrCreateInstance(modalElement);
-            myModal.show();
-          }
-        };
-
-        if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
-          mostrarModal();
-        } else {
-          window.addEventListener('load', mostrarModal);
-        }
-      }
-    });
-  </script>
 
   <!-- =================================================================
   // FIN BLOQUE MODAL DE AVISO
