@@ -163,6 +163,91 @@ button[data-bs-target="#modalHorario"] {
   margin-bottom: 1.5rem;
 }
 
+/* ==========================================================================
+   Aviso Modal Responsive Styles & Global Mobile Modal Protection
+   ========================================================================== */
+#avisoModal .modal-dialog {
+  width: auto;
+  max-width: calc(100vw - 1.25rem);
+  margin: 0.625rem auto;
+}
+
+#avisoModal .modal-content {
+  max-width: 100%;
+  overflow-x: hidden;
+  border-radius: 0.75rem;
+}
+
+#avisoModal .modal-header {
+  padding: 0.875rem 1rem;
+  align-items: center;
+}
+
+#avisoModal .modal-title {
+  font-size: clamp(0.95rem, 3.8vw, 1.2rem);
+  line-height: 1.35;
+  margin: 0;
+  padding-right: 0.5rem;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+#avisoModal .modal-body h4 {
+  font-size: clamp(1.05rem, 3.8vw, 1.35rem);
+  line-height: 1.3;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+#avisoModal .modal-body p {
+  font-size: clamp(0.9rem, 3.2vw, 1rem);
+  line-height: 1.5;
+}
+
+#avisoModal .modal-body .alert {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+#avisoModal .btn-primary.btn-lg {
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+  font-size: clamp(0.9rem, 3.5vw, 1.15rem);
+  line-height: 1.35;
+  padding: 0.65rem 1rem;
+}
+
+@media (min-width: 576px) {
+  #avisoModal .modal-dialog {
+    max-width: 540px;
+    margin: 1.75rem auto;
+  }
+
+  #avisoModal .modal-header {
+    padding: 1rem 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #avisoModal .modal-dialog {
+    max-width: 800px;
+  }
+}
+
+/* Regla defensiva general para asegurar que ningún modal desborde en teléfonos */
+@media (max-width: 575.98px) {
+  .modal-dialog {
+    max-width: calc(100vw - 1rem);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-content {
+    overflow-x: hidden;
+  }
+}
+
 /* Historia - Timeline */
 .history-timeline {
   position: relative;

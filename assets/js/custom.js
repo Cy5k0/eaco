@@ -23,20 +23,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Mostrar modal de aviso automático si existe en la página
   var modalAviso = document.getElementById('avisoModal');
-  if (modalAviso && typeof bootstrap !== 'undefined') {
-    var myModal = bootstrap.Modal.getOrCreateInstance(modalAviso);
-    myModal.show();
+  if (modalAviso) {
+    var mostrarModal = function () {
+      if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+        var myModal = bootstrap.Modal.getOrCreateInstance(modalAviso);
+        myModal.show();
+      }
+    };
+
+    if (typeof bootstrap !== 'undefined' && bootstrap.Modal) {
+      mostrarModal();
+    } else {
+      window.addEventListener('load', mostrarModal);
+    }
   }
 });
 
 
 /* Avisos HTML */
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Lazy Load Images
   const lazyImages = document.querySelectorAll('.aviso-item img[src]');
   const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
-      if(entry.isIntersecting){
+      if (entry.isIntersecting) {
         const img = entry.target;
         img.src = img.getAttribute('src');
         img.classList.add('fade-in');
@@ -49,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Ver más toggle
   document.querySelectorAll('.ver-mas-btn').forEach(button => {
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function () {
       const fullContent = this.parentElement.nextElementSibling;
       fullContent.classList.toggle('d-none');
       this.textContent = fullContent.classList.contains('d-none') ? 'Ver más' : 'Ver menos';
@@ -69,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   document.querySelectorAll('.pagination .page-link').forEach(link => {
-    link.addEventListener('click', function(e) {
+    link.addEventListener('click', function (e) {
       e.preventDefault();
       if (this.textContent === 'Anterior' && paginaActual > 1) {
         mostrarPagina(paginaActual - 1);
