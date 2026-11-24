@@ -4,7 +4,7 @@
     "anio": 2026,
     "titulo": "Calendario Anual de Actividades 2026",
     "descripcion": "Actividades, reuniones, celebraciones y eventos de la comunidad educativa.",
-    "ultima_actualizacion": "2026-11-12"
+    "ultima_actualizacion": "2026-11-24"
   },
   "actividades": [
     {
@@ -389,7 +389,7 @@
       "visible": true
     },
     {
-      "id": "2026-10-13-cantautora-sofia-gonzalez",
+      "id": "2026-10-13-cantautora-emilia-diaz",
       "fecha_inicio": "2026-10-13",
       "fecha_fin": null,
       "hora_inicio": "10:15",
@@ -704,6 +704,26 @@
       "visible": true
     },
     {
+      "id": "2026-11-19-visita-seremi-medioambiente",
+      "fecha_inicio": "2026-11-19",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Visita SEREMI del Medio Ambiente",
+      "descripcion": "Visita de la SEREMI del Medio Ambiente para revisar un lugar donde instalar una estación de monitoreo del aire.",
+      "categoria": "institucional",
+      "publico": [
+        "equipo_directivo",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Director"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
       "id": "2026-11-19-encuentro-coros-entre-lagos",
       "fecha_inicio": "2026-11-19",
       "fecha_fin": null,
@@ -721,27 +741,6 @@
       ],
       "ubicacion": "Entre Lagos",
       "estado": "confirmada",
-      "visible": true
-    },
-    {
-      "id": "2026-11-19-acto-ya-se-leer",
-      "fecha_inicio": "2026-11-19",
-      "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Acto 1° Básico: “Ya sé leer”",
-      "descripcion": "Ceremonia de lectura de estudiantes de 1° básico. Lugar y horario por confirmar.",
-      "categoria": "academica",
-      "publico": [
-        "estudiantes",
-        "apoderados",
-        "docentes"
-      ],
-      "responsables": [
-        "Alicia Adriazola"
-      ],
-      "ubicacion": "Por confirmar",
-      "estado": "por_confirmar",
       "visible": true
     },
     {
@@ -789,6 +788,44 @@
       "visible": true
     },
     {
+      "id": "2026-11-23-ficha-matricula-antiguos",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Entrega de ficha de matrícula estudiantes antiguos",
+      "descripcion": "Entrega de formularios de ficha de matrícula de estudiantes antiguos para ser completados por los apoderados.",
+      "categoria": "apoderados",
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Guillermo"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-23-reunion-apoderados",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": "2026-11-25",
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Reunión de apoderados",
+      "descripcion": "Reuniones de apoderados para organización de la Kermesse y lineamientos de cierre de año.",
+      "categoria": "apoderados",
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Docentes"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
       "id": "2026-11-24-dia-del-emigrante",
       "fecha_inicio": "2026-11-24",
       "fecha_fin": null,
@@ -807,25 +844,6 @@
         "Pamela"
       ],
       "ubicacion": "Gimnasio EACO",
-      "estado": "confirmada",
-      "visible": true
-    },
-    {
-      "id": "2026-11-24-reunion-apoderados",
-      "fecha_inicio": "2026-11-24",
-      "fecha_fin": "2026-11-25",
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Reunión de apoderados",
-      "descripcion": "Reuniones de apoderados para organización de la Kermesse y lineamientos de cierre de año.",
-      "categoria": "apoderados",
-      "publico": [
-        "apoderados"
-      ],
-      "responsables": [
-        "Docentes"
-      ],
-      "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
     },
@@ -857,7 +875,7 @@
       "hora_inicio": null,
       "hora_fin": null,
       "titulo": "Exposición Día Internacional de la Eliminación de la Violencia contra la Mujer",
-      "descripcion": "Exposición de maquetas de género en Plaza de Armas junto al Servicio de la Mujer y Género de la Municipalidad, explicada por estudiantes del establecimiento.",
+      "descripcion": "Exposición de maquetas de género en Plaza de Armas junto al Servicio de la Mujer y Género de la Municipalidad, explicada por estudiantes (Agustina, Sofía Navarro y 8 estudiantes de la banda).",
       "categoria": "convivencia",
       "publico": [
         "estudiantes",
@@ -866,7 +884,8 @@
       "responsables": [
         "Municipalidad",
         "Julio del Río",
-        "Pablo"
+        "Pablo",
+        "Gabriel"
       ],
       "ubicacion": "Plaza de Armas de Osorno",
       "estado": "confirmada",
@@ -879,7 +898,7 @@
       "hora_inicio": "16:00",
       "hora_fin": null,
       "titulo": "Muestra de Elencos",
-      "descripcion": "Muestra integradora de Coro, Banda, Orquesta, Danza y Folclor.",
+      "descripcion": "Muestra integradora de Banda, Orquesta y Danza.",
       "categoria": "artes",
       "publico": [
         "estudiantes",
@@ -889,11 +908,36 @@
       "responsables": [
         "Ana Saavedra",
         "Pablo",
-        "Nedjelka",
         "Esteban",
         "Ana Lucía"
       ],
       "ubicacion": "Gimnasio EACO",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-26-salida-pedagogica-niveles-iniciales",
+      "fecha_inicio": "2026-11-26",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Salida pedagógica niveles iniciales: Visita al Centro Ecuestre",
+      "descripcion": "Salida pedagógica de los niveles iniciales al Centro Ecuestre en el marco de la Semana del Párvulo.",
+      "categoria": "salida_pedagogica",
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Juanita",
+        "Mabel",
+        "Alicia",
+        "Judith",
+        "Daniela",
+        "Elena",
+        "Naty"
+      ],
+      "ubicacion": "Centro Ecuestre",
       "estado": "confirmada",
       "visible": true
     },
@@ -911,9 +955,52 @@
         "apoderados"
       ],
       "responsables": [
-        "Pablo"
+        "Pablo",
+        "Zaida"
       ],
       "ubicacion": "Frutillar, junto al Teatro del Lago",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-30-reunion-apoderados-matricula",
+      "fecha_inicio": "2026-11-30",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Reunión de apoderados y matrícula estudiantes antiguos",
+      "descripcion": "Reunión de apoderados y proceso de matrícula para estudiantes antiguos del establecimiento.",
+      "categoria": "apoderados",
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Unidad Educativa",
+        "Profesores Jefe",
+        "Francisco",
+        "Guillermo"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-11-30-salida-pedagogica-sexto-granja-educativa",
+      "fecha_inicio": "2026-11-30",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Salida pedagógica de 6° básico a Granja Educativa Jardín del Río",
+      "descripcion": "Salida pedagógica de estudiantes de 6° básico a la Granja Educativa Jardín del Río.",
+      "categoria": "salida_pedagogica",
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Paulina Pool"
+      ],
+      "ubicacion": "Granja Educativa Jardín del Río",
       "estado": "confirmada",
       "visible": true
     },
@@ -942,8 +1029,8 @@
       "fecha_fin": null,
       "hora_inicio": "14:00",
       "hora_fin": null,
-      "titulo": "Muestra de Talleres y Formación Artística",
-      "descripcion": "Muestra de Banda, Orquesta, Coro, Danza, Artes Visuales, Folclore, Guitarra, Metalófono, Flauta, revista (folletos, videos, expo) y Talleres de Formación Artística 1 y 2 con estudiantes de danza de 1° a 8° básico.",
+      "titulo": "Muestra de Talleres",
+      "descripcion": "Muestra de Banda, Orquesta, Coro, Danza, Artes Visuales, Folclore, Guitarra, Metalófono, Flauta, Teatro y revista (folletos, videos, exposición).",
       "categoria": "artes",
       "publico": [
         "estudiantes",
@@ -953,7 +1040,8 @@
       "responsables": [
         "Pablo",
         "Nedjelka",
-        "Esteban"
+        "Esteban",
+        "Anita"
       ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
@@ -963,10 +1051,10 @@
       "id": "2026-12-01-feria-navidena",
       "fecha_inicio": "2026-12-01",
       "fecha_fin": null,
-      "hora_inicio": null,
+      "hora_inicio": "14:00",
       "hora_fin": null,
       "titulo": "Feria Navideña",
-      "descripcion": "Feria navideña de la comunidad educativa.",
+      "descripcion": "Feria navideña de la comunidad educativa en el pabellón de artes.",
       "categoria": "comunidad",
       "publico": [
         "estudiantes",
@@ -976,29 +1064,50 @@
       "responsables": [
         "Zaida"
       ],
+      "ubicacion": "Pabellón de Artes, Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-02-jornada-colaboracion-instituciones",
+      "fecha_inicio": "2026-12-02",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Jornada de colaboración entre instituciones (INACAP)",
+      "descripcion": "Jornada para fortalecer vínculos y enriquecer el proceso de enseñanza-aprendizaje con stands informativos sobre prevención del consumo de sustancias.",
+      "categoria": "convivencia",
+      "publico": [
+        "estudiantes",
+        "docentes",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "INACAP"
+      ],
       "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
     },
     {
-      "id": "2026-12-03-matricula-estudiantes-antiguos",
+      "id": "2026-12-03-acto-ya-se-leer",
       "fecha_inicio": "2026-12-03",
       "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Matrícula estudiantes antiguos",
-      "descripcion": "Proceso de matrícula para estudiantes antiguos del establecimiento.",
-      "categoria": "apoderados",
+      "hora_inicio": "08:00",
+      "hora_fin": "13:00",
+      "titulo": "Acto 1° Básico: “Ya sé leer”",
+      "descripcion": "Ceremonia de lectura de estudiantes de 1° básico en el Auditorio del Instituto Comercial.",
+      "categoria": "academica",
       "publico": [
-        "apoderados"
+        "estudiantes",
+        "apoderados",
+        "docentes"
       ],
       "responsables": [
-        "Unidad Educativa",
-        "Profesores Jefe",
-        "Francisco",
-        "Guillermo"
+        "Alicia",
+        "Alejandra S."
       ],
-      "ubicacion": "Escuela de Artes y Cultura",
+      "ubicacion": "Auditorio Instituto Comercial",
       "estado": "confirmada",
       "visible": true
     },
@@ -1009,7 +1118,7 @@
       "hora_inicio": null,
       "hora_fin": null,
       "titulo": "Encendido de árbol de Navidad Sonesta - Orquesta",
-      "descripcion": "Participación musical de la Orquesta en el encendido del árbol de Navidad (fecha tentativa).",
+      "descripcion": "Participación musical de la Orquesta en el encendido del árbol de Navidad en Hotel Sonesta.",
       "categoria": "musica",
       "publico": [
         "estudiantes",
@@ -1022,27 +1131,6 @@
         "Pablo"
       ],
       "ubicacion": "Hotel Sonesta Osorno",
-      "estado": "por_confirmar",
-      "visible": true
-    },
-    {
-      "id": "2026-12-04-ultimo-dia-clases-octavos",
-      "fecha_inicio": "2026-12-04",
-      "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Último día de clases de 8° básico",
-      "descripcion": "Finalización de las actividades lectivas para los estudiantes de octavo año básico.",
-      "categoria": "academica",
-      "publico": [
-        "estudiantes",
-        "apoderados",
-        "docentes"
-      ],
-      "responsables": [
-        "UTP"
-      ],
-      "ubicacion": "Escuela de Artes y Cultura",
       "estado": "confirmada",
       "visible": true
     },
@@ -1080,10 +1168,134 @@
         "apoderados"
       ],
       "responsables": [
-        "Guillermo",
-        "Francisco"
+        "Guillermo"
       ],
       "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-10-salida-octavo-b-happy-panda",
+      "fecha_inicio": "2026-12-10",
+      "fecha_fin": null,
+      "hora_inicio": "10:30",
+      "hora_fin": "14:00",
+      "titulo": "Salida 8° B a Happy Panda",
+      "descripcion": "Salida recreativa de cierre de año para estudiantes de 8° básico B.",
+      "categoria": "convivencia",
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Nedjelka"
+      ],
+      "ubicacion": "Happy Panda",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-10-ensayo-licenciatura",
+      "fecha_inicio": "2026-12-10",
+      "fecha_fin": null,
+      "hora_inicio": "14:15",
+      "hora_fin": null,
+      "titulo": "Ensayo de licenciatura",
+      "descripcion": "Ensayo general de ceremonias de licenciatura en el gimnasio.",
+      "categoria": "ceremonia",
+      "publico": [
+        "estudiantes",
+        "docentes"
+      ],
+      "responsables": [
+        "Victoria",
+        "Nedjelka"
+      ],
+      "ubicacion": "Gimnasio EACO",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-10-salida-piscina-olegario-mohr",
+      "fecha_inicio": "2026-12-10",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Salida pedagógica escuela a Piscina Olegario Mohr",
+      "descripcion": "Salida pedagógica recreativa de la escuela a la Piscina Olegario Mohr (apoderados a cargo de los niños).",
+      "categoria": "salida_pedagogica",
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Unidad Educativa"
+      ],
+      "ubicacion": "Piscina Olegario Mohr",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-11-ultimo-dia-clases-octavos",
+      "fecha_inicio": "2026-12-11",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Último día de clases de 8° básico y despedida de 7° a 8°",
+      "descripcion": "Finalización de las actividades lectivas de octavo básico y actividad de despedida organizada por 7° básico.",
+      "categoria": "academica",
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "docentes"
+      ],
+      "responsables": [
+        "Yasna",
+        "Bárbara"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-14-jornada-capacitacion-sexualidad-genero",
+      "fecha_inicio": "2026-12-14",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Jornada de capacitación: Sexualidad y Género",
+      "descripcion": "Jornada de capacitación docente sobre Sexualidad y Género. Los estudiantes salen a las 13:00 hrs.",
+      "categoria": "institucional",
+      "publico": [
+        "docentes",
+        "estudiantes"
+      ],
+      "responsables": [
+        "Gabriel"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-14-salida-octavo-a-hotel-mackenna",
+      "fecha_inicio": "2026-12-14",
+      "fecha_fin": null,
+      "hora_inicio": "08:30",
+      "hora_fin": null,
+      "titulo": "Salida pedagógica 8° A a Hotel Mackenna",
+      "descripcion": "Salida pedagógica de cierre de año para estudiantes de 8° básico A al Hotel Mackenna.",
+      "categoria": "salida_pedagogica",
+      "publico": [
+        "estudiantes",
+        "apoderados"
+      ],
+      "responsables": [
+        "Victoria",
+        "Noe"
+      ],
+      "ubicacion": "Hotel Mackenna",
       "estado": "confirmada",
       "visible": true
     },
@@ -1110,64 +1322,6 @@
       "visible": true
     },
     {
-      "id": "2026-12-15-ultima-reunion-apoderados",
-      "fecha_inicio": "2026-12-15",
-      "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Última reunión de apoderados",
-      "descripcion": "Última reunión general de apoderados del año escolar 2026.",
-      "categoria": "apoderados",
-      "publico": [
-        "apoderados"
-      ],
-      "responsables": [
-        "Profesores Jefe"
-      ],
-      "ubicacion": "Escuela de Artes y Cultura",
-      "estado": "confirmada",
-      "visible": true
-    },
-    {
-      "id": "2026-12-16-entrega-documentos-kinder",
-      "fecha_inicio": "2026-12-16",
-      "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Entrega de documentos Kínder",
-      "descripcion": "Entrega de documentación de fin de año para estudiantes de Kínder.",
-      "categoria": "apoderados",
-      "publico": [
-        "apoderados"
-      ],
-      "responsables": [
-        "Unidad Educativa"
-      ],
-      "ubicacion": "Escuela de Artes y Cultura",
-      "estado": "confirmada",
-      "visible": true
-    },
-    {
-      "id": "2026-12-16-despedida-septimo-a-octavo",
-      "fecha_inicio": "2026-12-16",
-      "fecha_fin": null,
-      "hora_inicio": null,
-      "hora_fin": null,
-      "titulo": "Despedida de 7° a 8° básico",
-      "descripcion": "Actividad de despedida organizada por 7° básico para los estudiantes de 8° básico.",
-      "categoria": "convivencia",
-      "publico": [
-        "estudiantes"
-      ],
-      "responsables": [
-        "7° Básico",
-        "Unidad Educativa"
-      ],
-      "ubicacion": "Escuela de Artes y Cultura",
-      "estado": "confirmada",
-      "visible": true
-    },
-    {
       "id": "2026-12-16-licenciaturas",
       "fecha_inicio": "2026-12-16",
       "fecha_fin": null,
@@ -1189,6 +1343,25 @@
       "visible": true
     },
     {
+      "id": "2026-12-17-entrega-documentos-prekinder-kinder",
+      "fecha_inicio": "2026-12-17",
+      "fecha_fin": null,
+      "hora_inicio": null,
+      "hora_fin": null,
+      "titulo": "Entrega de documentos Pre-Kínder y Kínder",
+      "descripcion": "Entrega de documentación de fin de año para estudiantes de Pre-Kínder y Kínder.",
+      "categoria": "apoderados",
+      "publico": [
+        "apoderados"
+      ],
+      "responsables": [
+        "Mabel"
+      ],
+      "ubicacion": "Escuela de Artes y Cultura",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
       "id": "2026-12-18-encuentro-coros-navidenos",
       "fecha_inicio": "2026-12-18",
       "fecha_fin": null,
@@ -1206,6 +1379,27 @@
         "Nedjelka"
       ],
       "ubicacion": "Iglesia Luterana",
+      "estado": "confirmada",
+      "visible": true
+    },
+    {
+      "id": "2026-12-18-orquesta-cuerdas-boulevar-navideno",
+      "fecha_inicio": "2026-12-18",
+      "fecha_fin": null,
+      "hora_inicio": "17:00",
+      "hora_fin": null,
+      "titulo": "Participación Orquesta de Cuerdas en Boulevar Navideño",
+      "descripcion": "Presentación musical de la Orquesta de Cuerdas en el Boulevar Navideño del Barrio Cochrane.",
+      "categoria": "musica",
+      "publico": [
+        "estudiantes",
+        "apoderados",
+        "comunidad_educativa"
+      ],
+      "responsables": [
+        "Esteban González"
+      ],
+      "ubicacion": "Barrio Cochrane",
       "estado": "confirmada",
       "visible": true
     },
@@ -1236,8 +1430,8 @@
       "fecha_fin": null,
       "hora_inicio": null,
       "hora_fin": null,
-      "titulo": "Entrega de informes de notas PK a 7° básico",
-      "descripcion": "Entrega de informes finales de calificaciones para los niveles de Pre-Kínder a 7° básico.",
+      "titulo": "Entrega de informes de notas 1° a 7° básico",
+      "descripcion": "Entrega de informes finales de calificaciones para los niveles de 1° a 7° básico.",
       "categoria": "apoderados",
       "publico": [
         "apoderados"
